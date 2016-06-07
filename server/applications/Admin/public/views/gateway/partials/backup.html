@@ -1,0 +1,27 @@
+<div class = "hpanel hyellow">
+	<div class="panel-heading"></div>
+	<div class = "panel-body">
+		<fieldset>
+
+			<div class = "form-group">
+				<label ng-show = "ao.gateway.server.isPri">Secondary Server IP or URL:</label>
+				<label ng-hide = "ao.gateway.server.isPri">Primary Server IP or URL:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.bkup.address" required ng-minlength = "6" type = "text" class = "form-control"/>
+				</div>
+			</div>
+
+		</fieldset>
+	</div>
+</div>
+
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(3)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(5)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

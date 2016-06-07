@@ -1,0 +1,53 @@
+<div class = "hpanel hred">
+	<div class="panel-heading"></div>
+	<div class = "panel-body">
+		<fieldset>
+
+			<div class = "form-group">
+				<label>Schema Name:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.db.schema" ng-required = "true" ng-minlength = "3" type = "text" class = "form-control"/>
+				</div>
+			</div>
+			<div class = "form-group">
+				<label>DB Server IP Address:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.db.ip" ng-required = "true" ng-minlength = "6" type = "text" class = "form-control"/>
+				</div>
+			</div>
+			<div class = "form-group">
+				<label>TCP Port:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.db.port" ng-required = "true" ng-minlength = "3" type = "number" class = "form-control"/>
+				</div>
+			</div>
+			<div class = "form-group">
+				<label>User Name:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.db.user" ng-required = "true" ng-minlength = "1" type = "text" class = "form-control"/>
+				</div>
+			</div>
+			<div class = "form-group">
+				<label>Password:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.db.pass" ng-required = "true" ng-minlength = "1" type = "password" class = "form-control"/>
+				</div>
+			</div>
+
+		</fieldset>
+	</div>
+</div>
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(4)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(6)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

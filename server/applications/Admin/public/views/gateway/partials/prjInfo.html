@@ -1,0 +1,133 @@
+<div class = "hpanel horange">
+	<div class = "panel-heading"></div>
+	<div class = "panel-body">
+
+		<fieldset>
+
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Project Name:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.name" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Company Name:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.company" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-md-12">
+					<div class = "form-group">
+						<label>Address:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.location.address" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Country:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.location.country" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>City:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.location.city" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div ng-if = "ao.gateway.project.location.country == 'USA'" class = "row">
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>State:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.location.state" required ng-minlength = "2" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Zip Code:</label>
+
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.location.zipcode" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Contact Name:</label>
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.contact.name" required ng-minlength = "3" type = "text" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Contact Phone:</label>
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.contact.phone" required ng-minlength = "7" type = "tel" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Contact EMail:</label>
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.contact.email" required ng-minlength = "3" type = "email" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "form-group">
+						<label>Contact Title:</label>
+						<div class = "controls">
+							<input ng-model = "ao.gateway.project.contact.title" required ng-minlength = "3" type = "tel" class = "form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</fieldset>
+	</div>
+</div>
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(1)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(3)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

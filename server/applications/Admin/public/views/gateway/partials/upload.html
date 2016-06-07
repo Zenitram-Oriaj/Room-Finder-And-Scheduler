@@ -1,0 +1,43 @@
+<div class = "hpanel hyellow">
+	<div class = "panel-heading"></div>
+	<div class = "panel-body">
+
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Background And Logo Images For Way Finder</h5>
+				<p>Your background image should be named <strong>'bg'</strong>. Your company logo uses a transparent background,
+					is in a <strong>'.png'</strong> format and named <strong>'logo'</strong>.</p>
+			</div>
+		</div>
+		<hr/>
+		<div class = "row">
+			<div class = "col-md-12">
+				<div ngf-drop ngf-change="upload($files)" class = "drop-box"
+						 ngf-drag-over-class = "dragover" ngf-multiple = "false" ngf-allow-dir = "false"
+						 ngf-accept = "'image/*'">Drop Your Image File In Here
+				</div>
+
+				<div ngf-no-file-drop>
+					File Drag/Drop is not supported for this browser
+					<div class = "btn btn-warning2 btn-lg btn-block" ngf-select ngf-change = "upload($files)">Select File To Upload</div>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<div class="row">
+			<div class="col-md-12">
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(8)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(10)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

@@ -1,0 +1,349 @@
+{
+  "GetResourceSetupsResult": {
+    "ResourceSetupSummaryData": [
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 45,
+        "Description": "2 Rechtecke"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 46,
+        "Description": "4 Stehtische (JubilÃ¤um usw.)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 41,
+        "Description": "4-Rechtecke (4a9)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 42,
+        "Description": "7 Stehtische (JubilÃ¤um, usw.)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 24,
+        "Description": "Auditorium"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 43,
+        "Description": "Auditorium/Cafeteria Offen"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 12,
+        "Description": "Boardroom (standard)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 8,
+        "Description": "Business Skills"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 7,
+        "Description": "Cabaret"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 48,
+        "Description": "Cafeteria"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 1,
+        "Description": "Classroom"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 15,
+        "Description": "Closed Square"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 6,
+        "Description": "Clusters"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 32,
+        "Description": "Clusters of  5"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 18,
+        "Description": "Clusters of  6"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 36,
+        "Description": "Clusters of 10"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 19,
+        "Description": "Clusters of 4"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 37,
+        "Description": "Clusters of 8"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 33,
+        "Description": "Clusters**Lan in floor only**"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 56,
+        "Description": "Combined Tide 1-2 Clusters"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 51,
+        "Description": "Combined Tide 1-2 Theatre"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 52,
+        "Description": "Combined Tide 1-2-3 Theatre"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 55,
+        "Description": "Combined Tide 1-2-3, Clusters"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 5,
+        "Description": "Conference"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 40,
+        "Description": "E-Tischform"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 20,
+        "Description": "Empty Room"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 50,
+        "Description": "Expo...Tables only, no chairs"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 23,
+        "Description": "Groups of people"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 9,
+        "Description": "Horseshoe of Chairs"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 31,
+        "Description": "Meet / Brainstorm"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 27,
+        "Description": "Multipoint Host capable"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 28,
+        "Description": "Multipoint Host selected"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 22,
+        "Description": "No Preference"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 26,
+        "Description": "No set-up required"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 29,
+        "Description": "Normal participant"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 3,
+        "Description": "Open Square"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 10,
+        "Description": "Others"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 21,
+        "Description": "Please specify below"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 30,
+        "Description": "Relax / Escape"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 25,
+        "Description": "Seminar"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 44,
+        "Description": "Theater (Sitzreihen)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 4,
+        "Description": "Theater (w/o tables)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 38,
+        "Description": "Theater-Standard (Stuhlreihen)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 11,
+        "Description": "U Shape (w/o tables)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 2,
+        "Description": "U-Shape"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 39,
+        "Description": "U-Tischform"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 35,
+        "Description": "VER meeting"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 49,
+        "Description": "Workshop"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 16,
+        "Description": "Workstation"
+      }
+    ]
+  }
+}

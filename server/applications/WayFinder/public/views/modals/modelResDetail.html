@@ -1,0 +1,25 @@
+<div class = "modal-content" ng-click="allClicks()">
+	<div class = "modal-header">
+		<h3 class = "modal-title">Reservation Information</h3>
+	</div>
+	<div class = "modal-body">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Title: {{reservation.description}}</h2>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-xs-3"> Starts: {{reservation.startTime | date:'shortTime'}}</div>
+			<div class = "col-xs-3"> Ends At: {{reservation.stopTime | date:'shortTime'}}</div>
+			<div class = "col-xs-6"> Posted By: <b>{{reservation.createdByName}}</b></div>
+		</div>
+		<hr/>
+		<h5>Attendee List</h5>
+		<ul>
+			<li ng-repeat = "attendee in list track by $index">{{ attendee }}</li>
+		</ul>
+	</div>
+	<div class = "modal-footer">
+		<button class = "btn btn-primary btn-lg" ng-click = "ok()">Close Window</button>
+	</div>
+</div>

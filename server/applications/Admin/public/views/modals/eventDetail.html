@@ -1,0 +1,51 @@
+<div class = "inmodal">
+	<div class = "color-line"></div>
+	<div class = "modal-header">
+		<h4 class = "modal-title">Event Details</h4>
+		<div class = "font-bold">For {{evt.workspace}}</div>
+	</div>
+	<div class = "modal-body">
+		<div class = "hpanel">
+			<div class = "table-responsive">
+				<table cellpadding = "1" cellspacing = "1" class = "table table-bordered table-striped">
+					<thead>
+					<tr>
+						<th>Name</th>
+						<th>Info</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>ID</td>
+						<td>{{ evt.id }}</td>
+					</tr>
+					<tr>
+						<td>UUID</td>
+						<td>{{ evt.uuid }}</td>
+					</tr>
+					<tr>
+						<td>State</td>
+						<td>{{ evt.state }}</td>
+					</tr>
+					<tr>
+						<td>Duration</td>
+						<td>{{ evt.duration }}</td>
+					</tr>
+					<tr>
+						<td>Occured At</td>
+						<td>{{ evt.date | date: 'medium' }}</td>
+					</tr>
+					<tr>
+						<td>Event Status</td>
+						<td>{{ evt.event }}</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class = "modal-footer">
+		<button type = "button" class = "btn btn-outline btn-primary" ng-click = "cancel()">Close Details</button>
+	</div>
+</div>
+

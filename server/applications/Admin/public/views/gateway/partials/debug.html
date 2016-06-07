@@ -1,0 +1,61 @@
+<div class = "hpanel horange">
+	<div class="panel-heading"></div>
+	<div class = "panel-body">
+		<fieldset>
+
+			<div class = "form-group">
+				<div class = "row">
+					<div class = "col col-sm-4 col-xs-6">
+						<label>HTTP Debug:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.http.debug"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Wayfinder Debug:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.wyfd.debug"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<div class = "row">
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Controller Debug:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.ctrl.debug"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</fieldset>
+	</div>
+</div>
+
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(7)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(9)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

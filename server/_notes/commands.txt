@@ -1,0 +1,115 @@
+MYSQL COMMANDS
+mysql -u root -p
+sudo /etc/init.d/mysql restart
+
+CREATE USER `ao`@`%` IDENTIFIED BY 'a1b2c3d4e5';
+GRANT ALL ON * . * TO `ao`@`%`;
+FLUSH PRIVILEGES;
+
+SELECT user,host from mysql.user;
+
+sudo nano /etc/mysql/my.cnf
+(Comment out the following)
+# skip-external-locking
+# bind-address          = 127.0.0.1
+-------------------------------------------------
+
+SUDO COMMANDS
+
+	sudo visudo
+
+(Add the following line)
+	roomfinder  ALL=(ALL) NOPASSWD: ALL
+
+
+
+------------------------------------------------
+
+AO Git Repository
+	git clone https://github.com/Zenitram-Oriaj/ao.git
+
+
+------------------------------------------------
+Install JXCore
+	sudo curl http://jxcore.com/xil.sh | bash
+	wget http://jxcore.com/xil.sh
+
+
+	zeuproxy.eu.pg.com:9040
+
+	npm config set proxy http://zeuproxy.eu.pg.com:9400
+	npm config set https-proxy http://zeuproxy.eu.pg.com:9400
+
+	nw-gyp configure set proxy http://zeuproxy.eu.pg.com:9400 set https-proxy http://zeuproxy.eu.pg.com:9400
+
+	wget http://node-webkit.s3.amazonaws.com/v0.12.2/nw-headers-v0.12.2.tar.gz
+	wget http://node-webkit.s3.amazonaws.com/v0.10.37/nw-headers-v0.10.37.tar.gz
+
+http_proxy='http://autoproxy.pg.com:8080'
+https_proxy='https://autoproxy.pg.com:8080'
+no_proxy='localaddress,127.0.0.1,155.123.247.140,155.123.247.139'
+HTTP_PROXY='http://zeuproxy.eu.pg.com:9400'
+HTTPS_PROXY='https://zeuproxy.eu.pg.com:9400'
+NO_PROXY='localaddress,127.0.0.1,155.123.247.140,155.123.247.139'
+
+http_proxy='http://zeuproxy.eu.pg.com:9400'
+https_proxy='https://zeuproxy.eu.pg.com:9400'
+no_proxy='localaddress,127.0.0.1,155.123.247.140,155.123.247.139'
+HTTP_PROXY='http://zeuproxy.eu.pg.com:9400'
+HTTPS_PROXY='https://zeuproxy.eu.pg.com:9400'
+NO_PROXY='localaddress,127.0.0.1,155.123.247.140,155.123.247.139'
+
+npm config set proxy http://143.28.234.10:8080
+npm config set https-proxy https://143.28.234.10:8080
+
+jx install  --https-proxy https://143.28.234.10:8080 --proxy http://143.28.234.10:8080
+
+
+
+
+	> sudo visudo
+
+(Add the following line)
+	roomfinder  ALL=(ALL) NOPASSWD: ALL
+
+
+sudo apt-get -y install python-software-properties software-properties-common openssh-server curl git vsftpd x11vnc xdotool libavahi-compat-libdnssd-dev sysstat atsar screen
+
+
+https://github.com/Zenitram-Oriaj/ao-webkit.git
+cd ao-webkit
+
+Go to http://nwjs.io/ and download version 0.12.2
+extract and put contents into ao-webkit folder
+
+
+sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
+
+
+
+When Onsite:
+
+npm config set proxy http://zeuproxy.eu.pg.com:9400
+npm config set https-proxy https://zeuproxy.eu.pg.com:9400
+
+
+export http_proxy='http://zeuproxy.eu.pg.com:9400'
+export https_proxy='https://zeuproxy.eu.pg.com:9400'
+export no_proxy='localaddress,127.0.0.1,pg.com,155.123.247.0/24'
+export HTTP_PROXY='http://zeuproxy.eu.pg.com:9400'
+export HTTPS_PROXY='https://zeuproxy.eu.pg.com:9400'
+export NO_PROXY='localaddress,127.0.0.1,pg.com,155.123.247.0/24'
+
+no_proxy="localaddress,127.0.0.1,*.pg.com,155.123.247.140,155.123.247.139,155.123.247.0/24"
+NO_PROXY="localaddress,127.0.0.1,*.pg.com,155.123.247.140,155.123.247.139,155.123.247.0/24"
+
+export no_proxy="localaddress,127.0.0.1,*.pg.com,155.123.247.140,155.123.247.139,155.123.247.0/24"
+export NO_PROXY="localaddress,127.0.0.1,*.pg.com,155.123.247.140,155.123.247.139,155.123.247.0/24"
+
+export no_proxy='localaddress,127.0.0.1,pg.com,155.123.247.140,155.123.247.139,155.123.247.91,155.123.247.94,155.123.247.101,155.123.247.102,155.123.247.106,155.123.247.110,155.123.247.111,155.123.247.112,155.123.247.113,155.123.247.114,155.123.247.116,155.123.247.117,155.123.247.118,155.123.247.120,155.123.247.121,155.123.247.122,155.123.247.133,155.123.247.150,155.123.247.151,155.123.247.153,155.123.247.155,155.123.247.156,155.123.247.157,155.123.247.158,155.123.247.159,155.123.247.160,155.123.247.161,155.123.247.162,155.123.247.163,155.123.247.164,155.123.247.165,155.123.247.166,155.123.247.167,155.123.247.168,155.123.247.169,155.123.247.170,155.123.247.171,155.123.247.172,155.123.247.173,155.123.247.174,155.123.247.175,155.123.247.176,155.123.247.177,155.123.247.178,155.123.247.179,155.123.247.180,155.123.247.181,155.123.247.182,155.123.247.183,155.123.247.184,155.123.247.186,155.123.247.187,155.123.247.188,155.123.247.189,155.123.247.190,155.123.247.191,155.123.247.192,155.123.247.193,155.123.247.194,155.123.247.195,155.123.247.196,155.123.247.200,155.123.247.202,155.123.247.209,155.123.247.210,155.123.247.211,155.123.247.215,155.123.247.219'
+export NO_PROXY='localaddress,127.0.0.1,pg.com,155.123.247.140,155.123.247.139,155.123.247.91,155.123.247.94,155.123.247.101,155.123.247.102,155.123.247.106,155.123.247.110,155.123.247.111,155.123.247.112,155.123.247.113,155.123.247.114,155.123.247.116,155.123.247.117,155.123.247.118,155.123.247.120,155.123.247.121,155.123.247.122,155.123.247.133,155.123.247.150,155.123.247.151,155.123.247.153,155.123.247.155,155.123.247.156,155.123.247.157,155.123.247.158,155.123.247.159,155.123.247.160,155.123.247.161,155.123.247.162,155.123.247.163,155.123.247.164,155.123.247.165,155.123.247.166,155.123.247.167,155.123.247.168,155.123.247.169,155.123.247.170,155.123.247.171,155.123.247.172,155.123.247.173,155.123.247.174,155.123.247.175,155.123.247.176,155.123.247.177,155.123.247.178,155.123.247.179,155.123.247.180,155.123.247.181,155.123.247.182,155.123.247.183,155.123.247.184,155.123.247.186,155.123.247.187,155.123.247.188,155.123.247.189,155.123.247.190,155.123.247.191,155.123.247.192,155.123.247.193,155.123.247.194,155.123.247.195,155.123.247.196,155.123.247.200,155.123.247.202,155.123.247.209,155.123.247.210,155.123.247.211,155.123.247.215,155.123.247.219'
+
+CHANGE MASTER TO MASTER_HOST='155.123.247.140',MASTER_USER='gwysrv',MASTER_PASSWORD='boi123', MASTER_LOG_FILE='mysql-bin.000003', MASTER_LOG_POS=107;
+START SLAVE;
+
+http://resourcescheduler.pg.com/resourcescheduler.webservice/resourceschedulerservice.asmx?WSDL

@@ -1,0 +1,122 @@
+<div class = "inmodal">
+	<div class = "color-line"></div>
+	<div class = "modal-header">
+		<h4 class = "modal-title">Controller Configuration</h4>
+		<small class = "font-bold">Parameters Settings And Options</small>
+	</div>
+	<div class = "modal-body">
+		<div class = "hpanel">
+			<tabset class = "tabs-left">
+				<tab>
+					<tab-heading>
+						Basic
+					</tab-heading>
+					<div class = "panel-body">
+
+						<div class = "form-group">
+							<h5 class = "control-label"><b>UUID:</b> <span> {{ct.uuid}}</span>
+							</h5>
+						</div>
+
+						<div class = "form-group">
+							<label class = "control-label">Description:</label>
+
+							<div class = "controls">
+								<input type = "text" class = "form-control" ng-model="ct.description">
+								<span class = "help-block m-b-none">A basic description of where the unit is installed.</span>
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<label class = "control-label">Workspace UUID: </label> <select class = "form-control" ng-model = "ct.workspaceUuid"
+																																							ng-options = "value.uuid as value.name for value in ws"
+																																							ng-change = "slctWs()"></select>
+						</div>
+
+					</div>
+				</tab>
+
+				<tab>
+					<tab-heading>
+						Network
+					</tab-heading>
+					<div class = "panel-body">
+						<fieldset>
+
+							<div class = "form-group">
+								<label>Network Mode:</label>
+
+								<div class = "controls">
+									<select class = "form-control" ng-model = "ct.mode" ng-options = "value.id as value.label for value in slctParms"
+													ng-change = "updateMode()"></select>
+								</div>
+							</div>
+							<div ng-show = "manualSlct">
+								<div class = "form-group">
+									<label>IP Address:</label>
+
+									<div class = "controls">
+										<input ng-model = "ct.ip" required ng-minlength = "6" type = "text" class = "form-control"/>
+									</div>
+								</div>
+								<div class = "form-group">
+									<label>Subnet Mask:</label>
+
+									<div class = "controls">
+										<input ng-model = "ct.subnet" required ng-minlength = "6" type = "text" class = "form-control"/>
+									</div>
+								</div>
+								<div class = "form-group">
+									<label>Default Gateway:</label>
+
+									<div class = "controls">
+										<input ng-model = "ct.gw" required ng-minlength = "6" type = "text" class = "form-control"/>
+									</div>
+								</div>
+								<div class = "form-group">
+									<label>DNS Server:</label>
+
+									<div class = "controls">
+										<input ng-model = "ct.dns" required ng-minlength = "6" type = "text" class = "form-control"/>
+									</div>
+								</div>
+							</div>
+
+						</fieldset>
+					</div>
+				</tab>
+				<tab>
+					<tab-heading>
+						Settings
+					</tab-heading>
+					<div class = "panel-body">
+						<fieldset>
+							<div class = "form-group">
+								<label class = "control-label">Heartbeat (in seconds):</label>
+
+								<div class = "">
+									<input type = "number" class = "form-control" value = "{{ct.heartbeat}}">
+									<span class = "help-block m-b-none">The default time is 299 seconds.</span>
+								</div>
+							</div>
+							<div class = "form-group">
+								<label class = "control-label">Timeout (in minutes):</label>
+
+								<div class = "">
+									<input type = "number" class = "form-control" value = "{{ct.timeout}}">
+									<span class = "help-block m-b-none">The default time is 1 minute.</span>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+				</tab>
+			</tabset>
+		</div>
+	</div>
+	<div class = "modal-footer">
+		<button type = "button" class = "btn btn-outline btn-danger pull-left" ng-click = "delete()">Delete</button>
+		<button type = "button" class = "btn btn-outline btn-warning2" ng-click = "update()">Apply & Restart</button>
+		<button type = "button" class = "btn btn-outline btn-primary" ng-click = "cancel()">Close Config</button>
+	</div>
+</div>
+

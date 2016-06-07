@@ -1,0 +1,71 @@
+{
+	"query": {
+		"count":   1,
+		"created": "2014-07-14T20:18:14Z",
+		"lang":    "en-US",
+		"results": {
+			"channel": {
+				"item": {
+					"title":       "Conditions for Dayton, OH at 2:57 pm EDT",
+					"lat":         "39.77",
+					"long":        "-84.2",
+					"link":        "http://us.rd.yahoo.com/dailynews/rss/weather/Dayton__OH/*http://weather.yahoo.com/forecast/USOH0245_f.html",
+					"pubDate":     "Mon, 14 Jul 2014 2:57 pm EDT",
+					"condition":   {
+						"code": "30",
+						"date": "Mon, 14 Jul 2014 2:57 pm EDT",
+						"temp": "82",
+						"text": "Partly Cloudy"
+					},
+					"description": "\n<img src=\"http://l.yimg.com/a/i/us/we/52/30.gif\"/><br />\n<b>Current Conditions:</b><br />\nPartly Cloudy, 82 F<BR />\n<BR /><b>Forecast:</b><BR />\nMon - Scattered Thunderstorms. High: 83 Low: 62<br />\nTue - Mostly Sunny. High: 72 Low: 55<br />\nWed - Mostly Sunny. High: 74 Low: 54<br />\nThu - Mostly Cloudy. High: 76 Low: 57<br />\nFri - Few Showers. High: 79 Low: 63<br />\n<br />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Dayton__OH/*http://weather.yahoo.com/forecast/USOH0245_f.html\">Full Forecast at Yahoo! Weather</a><BR/><BR/>\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)<br/>\n",
+					"forecast":    [
+						{
+							"code": "47",
+							"date": "14 Jul 2014",
+							"day":  "Mon",
+							"high": "83",
+							"low":  "62",
+							"text": "Scattered Thunderstorms"
+						},
+						{
+							"code": "34",
+							"date": "15 Jul 2014",
+							"day":  "Tue",
+							"high": "72",
+							"low":  "55",
+							"text": "Mostly Sunny"
+						},
+						{
+							"code": "34",
+							"date": "16 Jul 2014",
+							"day":  "Wed",
+							"high": "74",
+							"low":  "54",
+							"text": "Mostly Sunny"
+						},
+						{
+							"code": "28",
+							"date": "17 Jul 2014",
+							"day":  "Thu",
+							"high": "76",
+							"low":  "57",
+							"text": "Mostly Cloudy"
+						},
+						{
+							"code": "11",
+							"date": "18 Jul 2014",
+							"day":  "Fri",
+							"high": "79",
+							"low":  "63",
+							"text": "Few Showers"
+						}
+					],
+					"guid":        {
+						"isPermaLink": "false",
+						"content":     "USOH0245_2014_07_18_7_00_EDT"
+					}
+				}
+			}
+		}
+	}
+}

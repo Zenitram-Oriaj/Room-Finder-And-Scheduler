@@ -1,0 +1,22 @@
+<div class = "widget shadow">
+	<div class = "widget-head">
+		<h3 class = "pull-left"><i class = "fa fa-calendar"></i> Calendar</h3>
+		<div class = "clearfix"></div>
+	</div>
+	<div class = "widget-body">
+		<!-- Calendar -->
+		<div class="shadowed widget-calendar">
+			<div id="widget-calendar"></div>
+		</div>
+	</div>
+	<div class = "widget-foot"></div>
+	<script>
+		(function(){
+			$('#widget-calendar').fullCalendar({});
+			setInterval(function(){
+				$('#widget-calendar').fullCalendar('render');
+				//window.location.reload(true);
+			}, 60 * 1000); // Reload The Calendar Widget Once Per Hour
+		})();
+	</script>
+</div>

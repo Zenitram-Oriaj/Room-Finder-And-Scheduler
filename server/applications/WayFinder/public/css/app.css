@@ -1,0 +1,569 @@
+
+@font-face {
+  font-family: "Avenir-Black";
+  font-style: normal;
+  src: url(../fonts/Avenir-Black.otf); /*if IE */
+  src: local("Avenir Black"), url("../fonts/Avenir-Black.otf") format("truetype"); /* non-IE */
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: normal;
+  src: url(../fonts/Avenir.otf); /*if IE */
+  src: local("Avenir"), url("../fonts/Avenir.otf") format("truetype"); /* non-IE */
+}
+
+@font-face {
+  font-family: "Avenir-LightOblique";
+  font-style: normal;
+  src: url(../fonts/Avenir-LightOblique.otf); /*if IE */
+  src: local("Avenir-LightOblique"), url("../fonts/Avenir-LightOblique.otf") format("truetype"); /* non-IE */
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust:none;
+}
+
+a {
+  color: #00B7FF;
+}
+h1, h2, h3, h4, h5, h6, p, em {
+  margin: 10px;
+}
+
+h1, h5, h6 {
+  font-family: "Avenir-Black", 'Ubuntu', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: "Avenir", 'Ubuntu', sans-serif;
+}
+
+em {
+  font-family: "Avenir-LightOblique", 'Ubuntu', sans-serif;
+}
+
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+hr {
+  color: #d9232e !important;
+}
+
+button {
+  margin-left: 5px;
+}
+
+/*****************************************/
+/*                SPLASH                 */
+/*****************************************/
+
+.splash {
+  position: absolute;
+  z-index: 2000;
+  background: white;
+  color: gray;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.splash-title {
+  text-align: center;
+  max-width: 500px;
+  margin: 15% auto;
+  padding: 20px
+}
+
+.splash-title h1 {
+  font-size: 26px
+}
+
+/*****************************************/
+/*                Colors                 */
+/*****************************************/
+
+.white {
+  color: #ffffff;
+}
+
+.dark {
+  color: #6f7a8a;
+}
+
+.red {
+  color: #f40a0a;
+}
+
+.red-smooth {
+  color: #d8605f;
+}
+
+div.blue {
+  color: #0099ff;
+}
+
+.green {
+  color: #72b110;
+}
+
+.yellow {
+  color: #f7cb38;
+}
+
+.orange {
+  color: #F88C00;
+}
+
+/*****************************************/
+/*              NO SELECT                */
+/*****************************************/
+
+.no-select
+{
+  user-select: none;
+  -o-user-select:none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+/*****************************************/
+/*          BOOTSTRAP OVERRIDES          */
+/*****************************************/
+
+.btn-group .btn {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.btn.btn-pg{
+  background-color: #6f7a8a;
+}
+
+.btn.btn-sb {
+  border-left: 1px solid #aaaaaa;
+  opacity: 1;
+  background: #e9e9e9;
+  background: -moz-linear-gradient(top, #e9e9e9 0%, #bbbabb 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e9e9e9), color-stop(100%, #bbbabb));
+}
+
+
+/*****************************************/
+/*              TITLE BAR                */
+/*****************************************/
+
+.titlebar {
+  height: 74px;
+  width: 100%;
+  position: relative;
+  background:url(../img/nav-bar.png) top repeat-x;
+}
+
+.titlebar h1, .titlebar h2 {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-shadow: 2px 2px 2px #004887;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.titlebar h1 {
+  font-size: 42px;
+}
+
+.titlebar h2 {
+  font-size: 38px;
+}
+
+.titlebar img {
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+
+/*****************************************/
+/*               SIDE BAR                */
+/*****************************************/
+
+.sidebar {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width:400px;
+  float:left;
+  background: url(../img/subtle_dots.png) #ffffff repeat;
+  padding: 0;
+  display:block;
+  position:absolute;
+  height:87%;
+  z-index:1000;
+
+  overflow-y: auto;
+
+  -webkit-transition:all 0.3s ease;
+  -moz-transition:all 0.3s ease;
+  -ms-transition:all 0.3s ease;
+  transition:all 0.3s ease;
+}
+
+.sidebar.ng-hide {
+  margin-left: -999px;
+}
+
+.sidebar.shadow {
+  -moz-box-shadow:    3px 3px 3px 1px #222;
+  -webkit-box-shadow: 3px 3px 3px 1px #222;
+  box-shadow:         3px 3px 3px 1px #222;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.sidebar .sb-main-head {
+  border-top-right-radius: 5px;
+  text-align:center;
+  padding: 5px;
+  width:inherit;
+  opacity: 1;
+  background: #e9e9e9;
+  background: -moz-linear-gradient(top, #e9e9e9 0%, #bbbabb 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e9e9e9), color-stop(100%, #bbbabb));
+}
+
+.sidebar .sb-body {
+  padding: 5px;
+  width:inherit;
+  min-height:25%;
+}
+
+.sidebar .sb-section-head {
+  text-align:center;
+  padding: 5px;
+  width:inherit;
+  opacity: 1;
+  background: #e9e9e9;
+  background: -moz-linear-gradient(top, #e9e9e9 0%, #bbbabb 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e9e9e9), color-stop(100%, #bbbabb));
+}
+
+.sidebar .sb-footer {
+  text-align:center;
+  width: inherit;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+/*****************************************/
+/*             FLOOR PLAN                */
+/*****************************************/
+
+.floorPlan {
+  padding-left: 10px;
+}
+/*****************************************/
+/*                LOGO                   */
+/*****************************************/
+
+.dwp-logo {
+  image-resolution: from-image;
+  align-items: center;
+}
+
+/*****************************************/
+/*               CONTENT                 */
+/*****************************************/
+
+.content {
+  margin: 0 0 0 0;
+  padding: 5px 15px 5px 15px;
+}
+
+/*****************************************/
+/*               ANGULAR                 */
+/*****************************************/
+
+.ng-invalid .ng-dirty{
+  border-color: #FA787E;
+}
+
+.ng-valid .ng-dirty{
+  border-color: #78FA89;
+}
+
+
+/*****************************************/
+/*             Clock + Date              */
+/*****************************************/
+
+.clock #date {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 3px 0 0 -1px;
+  text-align: center;
+}
+
+.clock #time {
+  font-size: 48px;
+  line-height: 110%;
+  margin: 0 0 2px -3px;
+  text-align: center;
+  letter-spacing: -3px;
+}
+
+/*****************************************/
+/*               Calendar                */
+/*****************************************/
+
+aside .widget-calendar {
+  padding: 0;
+}
+
+.widget-calendar .fc-header {
+  background: #a6e6fa;
+  border-bottom: 1px solid #292929;
+  margin-bottom: 0;
+}
+
+.widget-calendar .fc-header-title h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 6px 7px 7px;
+}
+
+.widget-calendar td, .widget-calendar th {
+  border-color: #292929;
+}
+
+.widget-calendar td {
+  font-size: 14px;
+  color: #000000;
+}
+
+.widget-calendar th {
+  font-size: 10px;
+  padding: 4px 0;
+}
+
+.widget-calendar .fc-grid .fc-day-number {
+  text-align: center;
+  float: none;
+}
+
+.widget-calendar .fc-today, .widget-calendar th {
+  color: #000000;
+}
+
+.widget-calendar .fc-today {
+  background: #a6e6fa !important;
+}
+
+.widget-calendar .fc-button-today {
+  display: none;
+}
+
+.widget-calendar .fc-text-arrow i {
+  font-size: 18px;
+  margin-right: 9px;
+  position: relative;
+  top: 4px;
+}
+
+.widget-calendar .fc-text-arrow:hover {
+  color: #79d2fa;
+  cursor: pointer;
+}
+
+.widget-calendar .fc-header-right {
+  text-align: right;
+}
+
+.widget-calendar .fc-button {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.widget-calendar .block{
+  margin-bottom: -5px;
+}
+
+.widget-calendar .fc-content table td {
+  padding-top: 5px;
+}
+
+/*****************************************/
+/*                Weather                */
+/*****************************************/
+
+.weather ul {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+  border-top: 1px dashed #c9c9c9;
+  padding-left: 0;
+}
+
+.weather li {
+  margin-bottom: 0;
+  display: inline;
+  padding: 10px 0 0 0;
+  width: 20%;
+  float: left;
+  text-align: center;
+  border-right: 1px dashed #c9c9c9;
+}
+
+.weather li:last-child {
+  border-right: none;
+}
+
+.weather li .day {
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.weather li .dayicon {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.weather li .max {
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  color: #62aaef;
+}
+
+.weather li .min {
+  width: 100%;
+  display: inline-block;
+  color: #999;
+}
+
+#wthrLogo {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/*****************************************/
+/*                D3 Data                */
+/*****************************************/
+
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #aaa;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+/*****************************************/
+/*              Stock Data               */
+/*****************************************/
+
+.arrow-block i{
+  color: #fff;
+  display: inline-block;
+  padding:4px 5px;
+  position:relative;
+  margin-left:2px;
+  top:-1px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.arrow-block i.ha-red{
+  background:#dc5b5b;
+}
+
+.arrow-block i.ha-green{
+  background:#5edb7b;
+}
+/*****************************************/
+/*                 MEDIA                 */
+/*****************************************/
+
+/* Mobile phones */
+@media (max-width: 480px){
+  .chat-widget .form-group{
+    width:70% !important;
+  }
+  .fc-button-month, .fc-button-agendaWeek, .fc-button-agendaDay {
+    display: none;
+  }
+  .page-statement .well{
+    margin-bottom:5px;
+  }
+
+  .titlebar h1 {
+    font-size: 20px;
+  }
+
+  .titlebar h2 {
+    font-size: 16px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 767px){
+  .sidebar {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:100%;
+  }
+
+  .sidebar .sb-main-head {
+    border-top-right-radius: 0;
+  }
+
+  .titlebar h1 {
+    font-size: 36px;
+  }
+
+  .titlebar h2 {
+    font-size: 32px;
+  }
+
+}
+
+/* Desktops */
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 1366px){
+
+}

@@ -1,0 +1,60 @@
+<div class = "color-line"></div>
+<div id = "logo" class = "light-version"><span>Agile Office</span>
+</div>
+<nav ng-controller = "HeaderCtrl" role = "navigation">
+	<minimaliza-menu></minimaliza-menu>
+	<div class = "small-logo">
+		<span class = "text-primary">Agile Office Mobile</span>
+	</div>
+
+	<div class = "navbar-right">
+		<ul class = "nav navbar-nav no-borders">
+
+			<li class = "dropdown" dropdown>
+				<a class = "dropdown-toggle label-menu-corner" href = "#" dropdown-toggle>
+					<i class = "pe-7s-speaker"></i>
+					<span ng-if = "loginfo.count > 0" class = "label label-{{loginfo.flag}}">{{loginfo.count}}</span>
+				</a>
+				<ul class = "dropdown-menu hdropdown notification animated flipInX">
+					<div class = "title">The server has {{loginfo.count}} new alerts</div>
+					<li ng-repeat = "item in loginfo.items">
+						<a href = "{{item.href}}"><span class = "label label-{{item.lvl}}">{{item.typ}}</span>{{item.msg}}</a>
+					</li>
+					<li class = "summary"><a href = "#"></a></li>
+				</ul>
+			</li>
+
+			<li ng-show = "ao.user.admin" class = "dropdown">
+				<a ui-sref = "users">
+					<i class = "pe-7s-users"></i>
+				</a>
+				<ul class = "dropdown-menu hdropdown notification animated flipInX">
+					<div class = "title">User Accounts</div>
+					<li class = "summary"><a ui-sref = "user.users">Manage</a></li>
+				</ul>
+			</li>
+
+			<li ng-show = "ao.user.accessLevel" class = "dropdown" dropdown>
+				<a class = "dropdown-toggle label-menu-corner" href = "#" dropdown-toggle>
+					<i class = "pe-7s-tools"></i>
+				</a>
+				<ul class = "dropdown-menu hdropdown notification animated flipInX">
+					<div class = "title">Account Settings</div>
+					<li><a ui-sref = "user.info"><span><i class = "fa fa-user fa-2x m-r-xs"></i></span> User Info</a></li>
+					<li><a ui-sref = "user.pass"><span><i class = "fa fa-key fa-2x m-r-xs"></i></span> Update Password</a></li>
+					<li class = "summary"></li>
+				</ul>
+			</li>
+
+			<li class = "dropdown">
+				<a href = "#" ng-click = "logout()">
+					<i class = "pe-7s-upload pe-rotate-90"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+
+

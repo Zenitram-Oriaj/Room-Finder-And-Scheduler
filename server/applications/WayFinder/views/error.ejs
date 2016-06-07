@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title><%= error.status %> Error Page - AgileOffice</title>
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<meta name = "description" content = "AgileOffice Gateway Controller">
+	<meta name = "author" content = "BOI Solutions, Inc.">
+
+	<meta name = "viewport" content = "initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name = "apple-mobile-web-app-capable" content = "yes">
+	<meta name = "apple-mobile-web-app-status-bar-style" content = "black">
+
+	<!-- Styles -->
+	<link href = "./css/bootstrap.css" rel = "stylesheet">
+	<link href = "./css/font-awesome.css" rel = "stylesheet">
+	<link href = "./css/app.css" rel = "stylesheet">
+	<link href = "./css/widget.css" rel = "stylesheet">
+</head>
+
+<body>
+<div class = "out-container">
+	<div class = "error-page text-center">
+		<div class = "error-page-inner">
+			<div class = "logo hidden-xs">
+				<img src = "./img/white-elephant.png" class = "agileoffice-logo"/>
+			</div>
+			<h1>Oops!!! It's <strong><%= error.status %></strong></h1>
+
+			<p>Something went wrong.</p>
+			<hr/>
+			<h1><%= message %></h1>
+			<pre><%= error.stack %></pre>
+			<hr/>
+			<p>We will try to fix it soon, well, unless......you know...</p>
+			<br/>
+			<a class = "btn btn-lrg btn-default" href = "/">Return Home</a>
+		</div>
+	</div>
+</div>
+<script src = "./libs/jquery.js"></script>
+<script src = "./libs/bootstrap.js"></script>
+
+</body>
+</html>

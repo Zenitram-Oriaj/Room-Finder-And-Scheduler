@@ -1,0 +1,30 @@
+{
+  "uuid": "BOI",
+  "name": "BOI Solutions Office",
+  "description": "A Test Setup",
+  "timeZoneId": "Eastern Standard Time",
+  "tzOffset": -4,
+  "regionId": 1,
+  "floors": [
+    {
+      "id": 1,
+      "uid": "L01",
+      "name": "Main Floor",
+      "description": ""
+    }
+  ],
+  "css": {
+    "color": "#D09A5E"
+  },
+  "widgets": {
+    "dateTime": true,
+    "calendar": false,
+    "news": false,
+    "newsSrc": "",
+    "weather": true,
+    "weatherID": "45342",
+    "weatherUnit": "f",
+    "stock": true,
+    "stockID": "AAPL"
+  }
+}

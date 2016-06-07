@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/roomfinder/ao/ao-webkit/shell/run.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Agile Office WayFinder
+Name=Agile Office WayFinder
+Comment[en_US]=WayFinder Display System
+Comment=WayFinder Display System

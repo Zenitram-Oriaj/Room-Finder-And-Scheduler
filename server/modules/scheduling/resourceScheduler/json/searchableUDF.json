@@ -1,0 +1,416 @@
+{
+  "GetSearchableUserDefinedFieldsResult": {
+    "UdfData": [
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 318,
+        "Description": "VHS VCR + DVD Player",
+        "Type": "A/V Equipment",
+        "InputType": "CheckBox",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 506,
+        "Description": "Spiderphone",
+        "Type": "Conference Room",
+        "InputType": "CheckBox",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 643,
+        "Description": "BKK - Latin America",
+        "Type": "Reservations",
+        "InputType": "DisplayOnly",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "This room is reserved for special project from Oct 24, 2009 to Feb 28, 2010."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 644,
+        "Description": "Plasma screen",
+        "Type": "A/V Equipment",
+        "InputType": "Text",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 631,
+        "Description": "Restricted access note!",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Important note:   Non P&G Visitors are not permitted to use this room unless you have also reserved FE1N01B.  Access to this room is withn a restricetd area."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 728,
+        "Description": "SGO Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please ensure mandatory information is filled up correctly and specify meeting title. Otherwise your reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 741,
+        "Description": "SGIC Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book rooms based on actual usage needs and specify valid meeting title. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 755,
+        "Description": "BJSHCBD Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please ensure mandatory information is filled up correctly and specify meeting title. Otherwise your reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 760,
+        "Description": "Jakarta Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please specify valid meeting title and book rooms based on actual time needed. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 767,
+        "Description": "KLGO Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please ensure mandatory information is filled up correctly and specify meeting title. Otherwise your reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 770,
+        "Description": "HKGO Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please ensure mandatory information is filled up correctly and specify meeting title. Otherwise your reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 774,
+        "Description": "Bangkok Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book rooms based on actual usage needs and specify valid meeting title. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 778,
+        "Description": "GZGO Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book room based on actual usage and with a valid meeting title. Please release room if you do not need it anymore."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 757,
+        "Description": "SCSC Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "No Block Booking Allowed. Please book room based on actual usage needs and specify valid meeting title. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 782,
+        "Description": "GZPSC Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book room based on actual usage and with a valid meeting title. Please release room if you do not need it anymore."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 794,
+        "Description": "Albany Facility Request",
+        "Type": "Reservations",
+        "InputType": "DisplayOnly",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "<a href='http://ay-web001.na.pg.com/BuildingMaint/RequestForm.asp?SiteName=Albany' Target='New' >Click here for tables and chairs set-up</a>"
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 798,
+        "Description": "GZ GT4 Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book room based on actual usage and with a valid meeting title. Please release room if you do not need it anymore."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 756,
+        "Description": "SydneyGO Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book rooms based on actual usage needs.  Reservations could be subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 768,
+        "Description": "VNGO Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: Please book rooms based on actual usage needs and specify valid meeting title. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 769,
+        "Description": "Taiwan Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please ensure mandatory information is filled up correctly and specify meeting title. Otherwise your reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 771,
+        "Description": "BJIC Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book rooms based on actual usage needs and specify valid meeting title. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 772,
+        "Description": "Mumbai Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book rooms based on actual usage needs and specify valid meeting title. Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 773,
+        "Description": "Seoul Booking Policy",
+        "Type": "Reservations",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "Note: No Block Bookings Allowed. Please book rooms based on actual usage needs and specify valid meeting title.  Otherwise reservation is subject to removal."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 639,
+        "Description": "BRTC Access Restricted",
+        "Type": "A/V Equipment",
+        "InputType": "Popup",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "NOTE: CETL Building Security access changed July 1, 2009. If you are not an authorized building resident you will no longer have access to the CETL facility at BRTC.  If you have business in CETL requiring a conferece room, please have a building resident book your room and authorize attendees' with reception."
+          ]
+        },
+        "IncludeInSearch": false
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": 674,
+        "Description": "Booking policy",
+        "Type": "Reservations",
+        "InputType": "DisplayOnly",
+        "IsSearchable": false,
+        "TextSearchType": "Equals",
+        "ValueOptions": {
+          "string": [
+            "PUBLIC MEETING ROOM RESERVATIONS MUST BE LIMITED TO 5 CONSECUTIVE BUSINESS DAYS OR LESS."
+          ]
+        },
+        "IncludeInSearch": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+
+/*****************************************/
+/*         BOOTSTRAP OVERRIDE            */
+/*****************************************/
+
+.glyphicon {
+  font-size: 34px;
+}
+
+.btn-lg {
+  padding: 32px 12px;
+}
+
+.btn-pg-blue {
+  color: #ffffff;
+  background-color: #005baa !important;
+  border-color: #808080;
+}
+
+.btn-pg-blue:active {
+  color: #ffffff;
+  background-color: #0022ff !important;
+  border-color: #01abe8;
+}
+
+.btn-pg-blue:focus, .btn-pg-blue:hover {
+  color: #ffffff;
+  background-color: #005baa !important;
+  border-color: #01abe8;
+}
+
+.btn-action {
+  background-color: #d9d9d9 !important;
+  border-color: #AAAAAA;
+}
+
+.btn-action:active {
+  background-color: #999999 !important;
+  border-color: #AAAAAA;
+}
+
+.btn-danger {
+  background-color: #d9232e !important;
+}
+
+.btn-danger:active {
+  background-color: darkred !important;
+}
+
+.btn-success {
+  background-color: #70d549 !important;
+}
+
+/*****************************************/
+/*          JCAROUSEL OVERRIDE           */
+/*****************************************/
+
+.jcarousel-wrapper {
+  margin-top: 0;
+}
+
+/*****************************************/
+/*            IONIC OVERRIDE             */
+/*****************************************/
+
+.pane {
+  background: url('../img/bg.png') repeat scroll 0 0 #FFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.modal{
+  top: 0 ;
+  bottom: 0 ;
+  left: 0 ;
+  right: 0 ;
+  width: 100% ;
+}
+
+.bar-footer {
+  height: 70px;
+}
+
+.bar-footer .col.col-50 .button.button-block{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bar-footer .col.col-33 .button.button-block{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bar-footer .col .button.button-block{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.bar .button {
+  min-height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+}

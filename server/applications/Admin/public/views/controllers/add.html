@@ -1,0 +1,43 @@
+<div animate-panel effect = "zoomIn">
+	<div class = "row">
+		<div class = "col-lg-12">
+			<div class = "hpanel hblue">
+				<div class = "panel-heading">
+					<div panel-tools></div>
+					<i class="fa fa-puzzle-piece"></i> Discovered Controllers
+				</div>
+				<div class = "panel-body">
+					<div class = "table-responsive">
+						<table datatable="ng" dt-options="dtOptions" dt-column-defs="dtDsColumnDefs" class="table table-striped table-bordered table-hover">
+							<thead>
+							<tr>
+								<th>UUID</th>
+								<th>Host Name</th>
+								<th>IP Address</th>
+								<th>Status</th>
+								<th>Configured</th>
+								<th>Added</th>
+								<th>Discovered On</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr ng-repeat="ds in ao.discovers" ng-click="discoverDetail(ds)">
+								<td>{{ ds.uuid }}</td>
+								<td>{{ ds.host }}</td>
+								<td>{{ ds.addresses }}</td>
+								<td>{{ ds.status }}</td>
+								<td>{{ ds.configured }}</td>
+								<td>{{ ds.added }}</td>
+								<td>{{ ds.createdAt | date }}</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class = "panel-footer">
+					Last update: {{lastUpdate | date: 'medium'}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

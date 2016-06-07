@@ -1,0 +1,56 @@
+<div class = "hpanel hblue">
+	<div class="panel-heading"></div>
+	<div class = "panel-body">
+		<fieldset>
+
+			<div class = "form-group">
+				<label>Network Mode:</label>
+
+				<div class = "controls">
+					<select class = "form-control" ng-model = "ao.gateway.network.mode" ng-options = "value.id as value.label for value in slctParms"
+									ng-change = "updateMode()"></select>
+				</div>
+			</div>
+			<div ng-show = "manualSlct">
+				<div class = "form-group">
+					<label>IP Address:</label>
+
+					<div class = "controls">
+						<input ng-model = "ao.gateway.network.ip" required ng-minlength = "6" type = "text" class = "form-control"/>
+					</div>
+				</div>
+				<div class = "form-group">
+					<label>Subnet Mask:</label>
+
+					<div class = "controls">
+						<input ng-model = "ao.gateway.network.sub" required ng-minlength = "6" type = "text" class = "form-control"/>
+					</div>
+				</div>
+				<div class = "form-group">
+					<label>Default Gateway:</label>
+
+					<div class = "controls">
+						<input ng-model = "ao.gateway.network.gw" required ng-minlength = "6" type = "text" class = "form-control"/>
+					</div>
+				</div>
+				<div class = "form-group">
+					<label>DNS Server:</label>
+
+					<div class = "controls">
+						<input ng-model = "ao.gateway.network.dns" required ng-minlength = "6" type = "text" class = "form-control"/>
+					</div>
+				</div>
+			</div>
+
+		</fieldset>
+	</div>
+</div>
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(2)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(4)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

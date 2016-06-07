@@ -1,0 +1,35 @@
+{
+  "uuid": "GBO",
+  "name": "Geneva Business Offices",
+  "description": "First Field Install Of Agile Office 2",
+  "timeZoneId": "Central European Standard Time",
+  "tzOffset": 2,
+  "regionId": 1,
+  "floors": [
+    {
+      "id": 1,
+      "uid": "L0E",
+      "name": "Ground Floor East",
+      "description": ""
+    },{
+      "id": 2,
+      "uid": "L0W",
+      "name": "Ground Floor West",
+      "description": ""
+    }
+  ],
+  "css": {
+    "color": "#0099ff"
+  },
+  "widgets": {
+    "dateTime": true,
+    "calendar": false,
+    "news": false,
+    "newsSrc": "",
+    "weather": true,
+    "weatherID": "geneva, switzerland",
+    "weatherUnit": "c",
+    "stock": true,
+    "stockID": "PG"
+  }
+}

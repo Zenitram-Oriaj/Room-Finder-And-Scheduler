@@ -1,0 +1,168 @@
+
+	<div class = "row">
+		<div class = "col-md-6">
+			<div class = "hpanel hgreen">
+				<div class = "panel-body">
+					<div class = "stats-title pull-left">
+						<h4>Server Information</h4>
+					</div>
+					<div class = "stats-icon pull-right">
+						<i class = "pe-7s-monitor fa-4x"></i>
+					</div>
+					<div class = "m-t-xl">
+						<h1 class = "text-success">{{ao.gateway.server.name}}</h1>
+						<hr/>
+						<small>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>System Installed:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.server.installed}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Server Role:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.server.role}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>OS Type:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.server.type}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Timezone:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.timezone.text}}</h6></div>
+							</div>
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-6">
+			<div class = "hpanel hblue">
+				<div class = "panel-body">
+					<div class = "stats-title pull-left">
+						<h4> Network Information</h4>
+					</div>
+					<div class = "stats-icon pull-right">
+						<i class = "pe-7s-network fa-4x"></i>
+					</div>
+					<div class = "m-t-xl">
+						<h1 class = "text-info">{{ao.gateway.network.ip}}</h1>
+						<hr/>
+						<small>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Gateway:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.network.gw}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Subnet Mask:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.network.sub}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>DNS Server:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.network.dns}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Interface:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.network.name}}</h6></div>
+							</div>
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class = "col-md-6">
+			<div class = "hpanel hred">
+				<div class = "panel-body">
+					<div class = "stats-title pull-left">
+						<h4>Project Information</h4>
+					</div>
+					<div class = "stats-icon pull-right">
+						<i class = "pe-7s-users fa-4x"></i>
+					</div>
+					<div class = "m-t-xl">
+						<h1 class = "text-danger">{{ao.gateway.project.name}}</h1>
+						<hr/>
+						<small>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Company:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.project.company}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Project Address:</h6></div>
+								<div class = "col-xs-8"><h6>{{fullAddress}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Contact Name:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.project.contact.name}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Contact Phone:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.project.contact.phone}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Contact EMail:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.project.contact.email}}</h6></div>
+							</div>
+						</small>
+						<hr/>
+						<div class="row">
+							<div class="col-xs-12">
+								<section id="map">
+									<div ui-map="locMap" ui-options="mapOptions" style="height: 200px"></div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-6">
+			<div class = "hpanel hviolet">
+				<div class = "panel-body">
+					<div class = "stats-title pull-left">
+						<h4>Services Information</h4>
+					</div>
+					<div class = "stats-icon pull-right">
+						<i class = "pe-7s-way fa-4x"></i>
+					</div>
+					<div class = "m-t-xl">
+						<h1 class = "text-primary-2">Node {{ao.gateway.server.node}}</h1>
+						<hr/>
+						<small>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>HTTP Port:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.http.port}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>HTTP Debug:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.http.debug}}</h6></div>
+							</div>
+							<hr/>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Controller Port:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.ctrl.port}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Controller Debug:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.ctrl.debug}}</h6></div>
+							</div>
+							<hr/>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>WayFinder Port:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.wyfd.port}}</h6></div>
+							</div>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>WayFinder Debug:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.wyfd.debug}}</h6></div>
+							</div>
+							<hr/>
+							<div class = "row">
+								<div class = "col-xs-4"><h6>Terminal Port:</h6></div>
+								<div class = "col-xs-8"><h6>{{ao.gateway.term.port}}</h6></div>
+							</div>
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

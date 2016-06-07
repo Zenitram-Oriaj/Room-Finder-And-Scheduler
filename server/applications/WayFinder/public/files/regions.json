@@ -1,0 +1,55 @@
+[{
+  "Id": 7,
+  "Description": "Asia Pacific",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 15,
+  "Description": "Asia Pacific Plants",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 2,
+  "Description": "EMEA",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 16,
+  "Description": "EMEA Plants",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 3,
+  "Description": "Latin America",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 17,
+  "Description": "Latin America Plants",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 9,
+  "Description": "North America CBCs",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1,
+  "Description": "North America Offices",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 10,
+  "Description": "North America Plants",
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+}]

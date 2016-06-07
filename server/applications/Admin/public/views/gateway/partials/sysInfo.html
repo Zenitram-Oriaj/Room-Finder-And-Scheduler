@@ -1,0 +1,43 @@
+<div class = "hpanel hgreen">
+	<div class = "panel-heading"></div>
+	<div class = "panel-body">
+		<fieldset>
+			<div class = "form-group">
+				<label>System Name:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.server.name" ng-required = "true" ng-minlength = "3" type = "text" class = "form-control"/>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<label>Physical Location Of Server:</label>
+
+				<div class = "controls">
+					<input ng-model = "ao.gateway.server.installed" ng-required = "true" ng-minlength = "3" type = "text" class = "form-control"/>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<label>Server Role:</label>
+
+				<div class = "controls">
+					<select class = "form-control" ng-model = "ao.gateway.server.role" ng-options = "value.id as value.label for value in slctRoles"
+									ng-change = "updateRole()"></select>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<label>Local Timezone:</label>
+
+				<div class = "controls">
+					<select class = "form-control" required ng-model = "ao.gateway.timezone" ng-options = "val as val.value for val in tzs" ng-change = "slctTimeZone()"> </select>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<ul class = "pager">
+	<li class = "next"><a href = "#" ng-click = "wizard.go(2)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

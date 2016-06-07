@@ -1,0 +1,28 @@
+<div class = "modal-content" ng-click="allClicks()">
+	<div class = "modal-header">
+		<h3 class = "modal-title">Local Reservation Results</h3>
+	</div>
+	<div class = "modal-body">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Request Result For Room {{obj.room.name}}:</h2>
+				<div ng-show="obj.pass"	class="alert alert-success" role="alert">
+					<h4>Reservation Was {{obj.type}} Successfully.</h4>
+				</div>
+				<div ng-hide="obj.pass" class="alert alert-danger" role="alert">
+					<h4>{{obj.msg}}</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<modal-warn></modal-warn>
+			</div>
+		</div>
+		<hr/>
+
+	</div>
+	<div class = "modal-footer">
+		<button class = "btn btn-primary btn-lg" ng-click = "cancel()">Close Window</button>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+{
+  "name": "ao-wayfinder-builder",
+  "author": "Jairo Martinez",
+  "version": "0.0.1",
+  "dependencies": {
+    "nw-builder": "*"
+  }
+}

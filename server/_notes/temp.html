@@ -1,0 +1,76 @@
+<div ng-controller = "WorkspaceController">
+	<div class = "floorPlan" id = "floorplan-container"></div>
+</div>
+
+<timepicker ng-model = "stopTime" ng-change = "changeStop()" hour-step = "hstep" minute-step = "mstep2"
+						show-meridian = "ismeridian"></timepicker>
+
+
+<table>
+	<tbody>
+	<tr class = "text-center">
+		<td><a ng-click = "incrementHours()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-up"></span></a></td>
+		<td>&nbsp;</td>
+		<td><a ng-click = "incrementMinutes()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-up"></span></a></td>
+		<td ng-show = "showMeridian"></td>
+	</tr>
+	<tr>
+		<td style = "width:50px;" class = "form-group" ng-class = "{'has-error': invalidHours}">
+			<input type = "text" ng-model = "hours" ng-change = "updateHours()" class = "form-control text-center" ng-mousewheel = "incrementHours()"
+						 ng-readonly = "readonlyInput" maxlength = "2">
+		</td>
+		<td>:</td>
+		<td style = "width:50px;" class = "form-group" ng-class = "{'has-error': invalidMinutes}">
+			<input type = "text" ng-model = "minutes" ng-change = "updateMinutes()" class = "form-control text-center" ng-readonly = "readonlyInput"
+						 maxlength = "2">
+		</td>
+		<td ng-show = "showMeridian">
+			<button type = "button" class = "btn btn-default text-center" ng-click = "toggleMeridian()">{{meridian}}</button>
+		</td>
+	</tr>
+	<tr class = "text-center">
+		<td><a ng-click = "decrementHours()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-down"></span></a></td>
+		<td>&nbsp;</td>
+		<td><a ng-click = "decrementMinutes()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-down"></span></a></td>
+		<td ng-show = "showMeridian"></td>
+	</tr>
+	</tbody>
+</table>
+
+
+
+
+
+
+<div class = "col-lg-7">
+	<div class = "hpanel hviolet">
+		<div class = "panel-heading">
+			<div panel-tools></div>
+			Dashboard information and statistics
+		</div>
+		<div class = "panel-body">
+			<div class = "row">
+				<div class = "col-md-8">
+					<canvas linechart options = "lineOptions" data = "lineData" height = "140" responsive = true></canvas>
+				</div>
+				<div class = "col-md-4 text-center">
+					<div class = "small">
+						<i class = "fa fa-clock-o"></i> Active duration
+					</div>
+					<div>
+						<h1 class = "font-extra-bold m-t-xs m-b-xs">
+							10 Months
+						</h1>
+						<small>And four weeks</small>
+					</div>
+					<div class = "small m-t-xl">
+						<i class = "fa fa-clock-o"></i> Last active in 12.10.2015
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "panel-footer">
+			Last update: {{lastUpdate | date: 'medium'}}
+		</div>
+	</div>
+</div>

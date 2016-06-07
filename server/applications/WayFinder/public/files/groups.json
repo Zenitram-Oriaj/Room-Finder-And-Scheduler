@@ -1,0 +1,5864 @@
+[{
+  "Id": 1329,
+  "Description": "Apollo Hall",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1315,
+  "Description": "Chemicals",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1175,
+  "Description": "Cottage",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1174,
+  "Description": "Duratec Training Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1177,
+  "Description": "General Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1176,
+  "Description": "Materials",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1178,
+  "Description": "MPD",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1179,
+  "Description": "Weiler Hall",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1231,
+  "Description": "AB",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1228,
+  "Description": "KP House",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1243,
+  "Description": "LPT Only",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1227,
+  "Description": "PB",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1081,
+  "Description": "Albany rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1250,
+  "Description": "DRY",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1251,
+  "Description": "HDL",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1253,
+  "Description": "Site",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1254,
+  "Description": "SNO",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1252,
+  "Description": "SUD",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1255,
+  "Description": "TSG",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1144,
+  "Description": "Batiment Administratif",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1150,
+  "Description": "Batiment L3",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1145,
+  "Description": "Batiment Nord",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1147,
+  "Description": "Batiment P5",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1146,
+  "Description": "Batiment Techinque",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1148,
+  "Description": "Bungalow Unidose",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1320,
+  "Description": "DC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1151,
+  "Description": "Projects",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1149,
+  "Description": "PSC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1134,
+  "Description": "Andover Meeting Rooms",
+  "SubGroups": [
+    {
+      "Id": 1137,
+      "Description": "CC Meeting Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 1135,
+      "Description": "ON Meeting Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 1136,
+      "Description": "OS Meeting Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 1157,
+      "Description": "OS Meeting Rooms Gillette Square",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1137,
+  "Description": "CC Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1135,
+  "Description": "ON Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1136,
+  "Description": "OS Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1157,
+  "Description": "OS Meeting Rooms Gillette Square",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 589,
+  "Description": "Ugarte",
+  "SubGroups": [
+    {
+      "Id": 638,
+      "Description": "Auditorio Subsuelo",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 592,
+      "Description": "Piso 1",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 607,
+      "Description": "Piso 2",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 590,
+      "Description": "Planta Baja",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 638,
+  "Description": "Auditorio Subsuelo",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 592,
+  "Description": "Piso 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 607,
+  "Description": "Piso 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 590,
+  "Description": "Planta Baja",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 102,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 944,
+  "Description": "Distribution Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 727,
+  "Description": "Dry Laundry",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 188,
+  "Description": "Oficinas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 189,
+  "Description": "Pet Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 99,
+  "Description": "Pilar Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 766,
+  "Description": "RRHH Restricted",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1072,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1057,
+  "Description": "All Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 161,
+  "Description": "Main Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 634,
+  "Description": "Melbourne Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 381,
+  "Description": "Australia Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1299,
+  "Description": "Distribution Centre",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 280,
+  "Description": "Vienna",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1111,
+  "Description": "Office Area",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 931,
+  "Description": "Baku SO",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1215,
+  "Description": "Amin Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1049,
+  "Description": "Admin Area",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1051,
+  "Description": "Fabric Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1095,
+  "Description": "Fabric Care - Making",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1050,
+  "Description": "Hair Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1052,
+  "Description": "Skin Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1094,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1028,
+  "Description": "Auditorium",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1032,
+  "Description": "C&P",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1031,
+  "Description": "Engineer",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1029,
+  "Description": "Hair Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1030,
+  "Description": "Skin Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1027,
+  "Description": "Support Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 127,
+  "Description": "A/V Resources",
+  "SubGroups": [
+    {
+      "Id": 821,
+      "Description": "Flip Charts and Other",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 240,
+      "Description": "Projectors",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 243,
+      "Description": "Speakers, TV and A/V",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 239,
+      "Description": "Star Phones",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 821,
+  "Description": "Flip Charts and Other",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 240,
+  "Description": "Projectors",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 243,
+  "Description": "Speakers, TV and A/V",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 239,
+  "Description": "Star Phones",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 658,
+  "Description": "BLD S Consumer Lounge",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 232,
+  "Description": "Building A",
+  "SubGroups": [
+    {
+      "Id": 515,
+      "Description": "Rest. P&DD rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 271,
+      "Description": "Restr. A250-251",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 515,
+  "Description": "Rest. P&DD rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 271,
+  "Description": "Restr. A250-251",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 111,
+  "Description": "Building L",
+  "SubGroups": [
+    {
+      "Id": 261,
+      "Description": "Restricted - L245",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 261,
+  "Description": "Restricted - L245",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 112,
+  "Description": "Building M",
+  "SubGroups": [
+    {
+      "Id": 257,
+      "Description": "Restricted",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 257,
+  "Description": "Restricted",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 121,
+  "Description": "Building N",
+  "SubGroups": [
+    {
+      "Id": 608,
+      "Description": "Rest. N0101-0102",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 557,
+      "Description": "Restr. - N79",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 263,
+      "Description": "Restricted - N179",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 264,
+      "Description": "Restricted - N229",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 608,
+  "Description": "Rest. N0101-0102",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 557,
+  "Description": "Restr. - N79",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 263,
+  "Description": "Restricted - N179",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 264,
+  "Description": "Restricted - N229",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 234,
+  "Description": "Building P ",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 123,
+  "Description": "Building R",
+  "SubGroups": [
+    {
+      "Id": 265,
+      "Description": "Restricted - R bld",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 265,
+  "Description": "Restricted - R bld",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 225,
+  "Description": "Eurest (Catering Only)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 238,
+  "Description": "Lunch Vouchers",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 237,
+  "Description": "Tables in Restaurant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1234,
+  "Description": "New Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1233,
+  "Description": "Old Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1074,
+  "Description": "Belleville Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1033,
+  "Description": "Building 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1317,
+  "Description": "Building 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1123,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 617,
+  "Description": "Level 1 Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 618,
+  "Description": "Level 2 Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 616,
+  "Description": "Level A Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 622,
+  "Description": "Level B rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1214,
+  "Description": "Bhiwadi Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1034,
+  "Description": "Admin Building 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1035,
+  "Description": "Admin Building 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1281,
+  "Description": "Manufacturing Area",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1328,
+  "Description": "New Admin Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1124,
+  "Description": "Bat Administration",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1128,
+  "Description": "Labo",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1127,
+  "Description": "Mag 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1160,
+  "Description": "Making",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1125,
+  "Description": "Packing",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1130,
+  "Description": "Packing Custo",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1131,
+  "Description": "Packing Mezzanine",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1156,
+  "Description": "PSC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1126,
+  "Description": "Services Regionaux",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1056,
+  "Description": "Admin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1055,
+  "Description": "PPL",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 952,
+  "Description": "A Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 953,
+  "Description": "B Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 960,
+  "Description": "C Annex",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 961,
+  "Description": "C Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 962,
+  "Description": "D Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 963,
+  "Description": "E Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 964,
+  "Description": "F Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 965,
+  "Description": "G Building",
+  "SubGroups": [
+    {
+      "Id": 972,
+      "Description": "1G Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 972,
+  "Description": "1G Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 966,
+  "Description": "GA Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 967,
+  "Description": "K Building",
+  "SubGroups": [
+    {
+      "Id": 973,
+      "Description": "4K Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 973,
+  "Description": "4K Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 968,
+  "Description": "L Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 969,
+  "Description": "MC Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1325,
+  "Description": "U Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 970,
+  "Description": "Y Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 971,
+  "Description": "Z Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1263,
+  "Description": "Bournemouth Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1082,
+  "Description": "Building 72",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1086,
+  "Description": "Construction Trailers",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1085,
+  "Description": "Control Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 198,
+  "Description": "Sao Paulo GO",
+  "SubGroups": [
+    {
+      "Id": 200,
+      "Description": "Meeting rooms (External)",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 602,
+      "Description": "Meeting rooms (Internal)",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 200,
+  "Description": "Meeting rooms (External)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 602,
+  "Description": "Meeting rooms (Internal)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 876,
+  "Description": "Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 874,
+  "Description": "Wella GO",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1075,
+  "Description": "Brockville Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1073,
+  "Description": "Budapest Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1036,
+  "Description": "Admin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1037,
+  "Description": "Learning Wing",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1058,
+  "Description": "Baby Care Conference Rms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1059,
+  "Description": "BIS Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1060,
+  "Description": "Bldg. 88 Conf. Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1061,
+  "Description": "Family Care Conf Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1062,
+  "Description": "GPO Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1063,
+  "Description": "Site Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1064,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1102,
+  "Description": "Ain Sebaa Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1256,
+  "Description": "Building A",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1257,
+  "Description": "Building B",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1258,
+  "Description": "Building C",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1259,
+  "Description": "Olay Training Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 406,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 405,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 408,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 407,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 674,
+  "Description": "Joyce Street  Building",
+  "SubGroups": [
+    {
+      "Id": 675,
+      "Description": "Floor 1",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 676,
+      "Description": "Floor 2",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 675,
+  "Description": "Floor 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 676,
+  "Description": "Floor 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 896,
+  "Description": "RazorBric ",
+  "SubGroups": [
+    {
+      "Id": 895,
+      "Description": "RazorBric",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 895,
+  "Description": "RazorBric",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 412,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 411,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 511,
+  "Description": "Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 913,
+  "Description": "P&G Prestige Miami",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 642,
+  "Description": "Downtown",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 420,
+  "Description": "Eden Prairie",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 422,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 424,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 426,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 428,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 427,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 432,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 585,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 443,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 445,
+  "Description": "CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1048,
+  "Description": "Admin Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 683,
+  "Description": "Santiago Business Center",
+  "SubGroups": [
+    {
+      "Id": 687,
+      "Description": "Piso 17",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 690,
+      "Description": "Piso 20",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 687,
+  "Description": "Piso 17",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 690,
+  "Description": "Piso 20",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 647,
+  "Description": "BJCBD Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 865,
+  "Description": "BJIC-Tianzhu Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 867,
+  "Description": "BJIC-TZ VC Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 323,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 325,
+  "Description": "GZGO (Priority) TRAINING Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 597,
+  "Description": "GZGO NORMAL Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 324,
+  "Description": "GZGO PRIORITY Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1305,
+  "Description": "GZ PSC Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 534,
+  "Description": "Shanghai CBD Meeting Rms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 154,
+  "Description": "BR Building",
+  "SubGroups": [
+    {
+      "Id": 156,
+      "Description": "BRB Conference rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 490,
+      "Description": "BRTC E118",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 157,
+      "Description": "BRTC MS&T",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 156,
+  "Description": "BRB Conference rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 490,
+  "Description": "BRTC E118",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 157,
+  "Description": "BRTC MS&T",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 150,
+  "Description": "CETL Building",
+  "SubGroups": [
+    {
+      "Id": 484,
+      "Description": "BRTC CEBS",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 485,
+      "Description": "BRTC CEBS HSE",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 487,
+      "Description": "BRTC MSA",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 153,
+      "Description": "CETL Conference Rooms > Security Access ",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 484,
+  "Description": "BRTC CEBS",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 485,
+  "Description": "BRTC CEBS HSE",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 487,
+  "Description": "BRTC MSA",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 153,
+  "Description": "CETL Conference Rooms > Security Access ",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 278,
+  "Description": "Historic Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 279,
+  "Description": "Millennium Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 58,
+  "Description": "Central",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 59,
+  "Description": "Edwin L. Artzt Conference Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 70,
+  "Description": "JPLC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 497,
+  "Description": "Private Rooms / Resources",
+  "SubGroups": [
+    {
+      "Id": 538,
+      "Description": "C 8 Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 210,
+      "Description": "C LL Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 855,
+      "Description": "C-11 Executive Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 82,
+      "Description": "TE 4 Flex Spaces",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 535,
+      "Description": "TE 4 Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 498,
+      "Description": "TE 5 F&A",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 505,
+      "Description": "TE 5-6 AF&RS A/V",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 536,
+      "Description": "TN 1 Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 581,
+      "Description": "TN-16 Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 826,
+      "Description": "TN9 Private Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 538,
+  "Description": "C 8 Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 210,
+  "Description": "C LL Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 855,
+  "Description": "C-11 Executive Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 82,
+  "Description": "TE 4 Flex Spaces",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 535,
+  "Description": "TE 4 Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 498,
+  "Description": "TE 5 F&A",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 505,
+  "Description": "TE 5-6 AF&RS A/V",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 536,
+  "Description": "TN 1 Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 581,
+  "Description": "TN-16 Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 826,
+  "Description": "TN9 Private Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 62,
+  "Description": "Special areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 66,
+  "Description": "Sycamore Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 61,
+  "Description": "Tower East and North",
+  "SubGroups": [
+    {
+      "Id": 63,
+      "Description": "Tower E",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 60,
+      "Description": "Tower N",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 63,
+  "Description": "Tower E",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 60,
+  "Description": "Tower N",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 561,
+  "Description": "GPDF",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 55,
+  "Description": "!Click here for VC room scheduling info!",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 56,
+  "Description": "A/V available for HCRC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 48,
+  "Description": "Central Functions",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 50,
+  "Description": "Discovery",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 46,
+  "Description": "DV",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 529,
+  "Description": "Panel Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 49,
+  "Description": "South",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 54,
+  "Description": "Special Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1327,
+  "Description": "test",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 245,
+  "Description": "Admin Building",
+  "SubGroups": [
+    {
+      "Id": 349,
+      "Description": "Conference Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 509,
+      "Description": "Process Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 349,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 509,
+  "Description": "Process Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 246,
+  "Description": "HB Building",
+  "SubGroups": [
+    {
+      "Id": 348,
+      "Description": "Conference Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 348,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 397,
+  "Description": "Special Venues",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 345,
+  "Description": "Video Conference",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 146,
+  "Description": "A/V",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 118,
+  "Description": "Baby Care B",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 113,
+  "Description": "Baby Care C",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 114,
+  "Description": "Family Care East / Family Care West",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1316,
+  "Description": "FE New rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 131,
+  "Description": "Femcare",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 539,
+  "Description": "Private Rooms / Resources",
+  "SubGroups": [
+    {
+      "Id": 541,
+      "Description": "FE Bldg. Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 540,
+      "Description": "Snacks Bldg",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 541,
+  "Description": "FE Bldg. Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 540,
+  "Description": "Snacks Bldg",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 120,
+  "Description": "Special Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 119,
+  "Description": "Video Conference",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1161,
+  "Description": "West A 1st floor",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 659,
+  "Description": "West A Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 117,
+  "Description": "West B Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 116,
+  "Description": "West C Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1169,
+  "Description": "Cell Make",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1170,
+  "Description": "Pack Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1191,
+  "Description": "Geb. 18",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1180,
+  "Description": "Geb. 23",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1192,
+  "Description": "Geb. 26",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1195,
+  "Description": "Geb. 41",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1193,
+  "Description": "Geb. 42",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1196,
+  "Description": "Geb. 43",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 375,
+  "Description": "Bogota GO",
+  "SubGroups": [
+    {
+      "Id": 460,
+      "Description": "A/V Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 377,
+      "Description": "Meeting Rooms Piso 11",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 376,
+      "Description": "Meeting Rooms Piso 12",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 915,
+      "Description": "Planning Room",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 400,
+      "Description": "Sala Gerencia",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 460,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 377,
+  "Description": "Meeting Rooms Piso 11",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 376,
+  "Description": "Meeting Rooms Piso 12",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 915,
+  "Description": "Planning Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 400,
+  "Description": "Sala Gerencia",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 454,
+  "Description": "GBS Service Center",
+  "SubGroups": [
+    {
+      "Id": 334,
+      "Description": "Conference Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 901,
+      "Description": "Meeting Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 335,
+      "Description": "Special Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 336,
+      "Description": "Training Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 334,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 901,
+  "Description": "Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 335,
+  "Description": "Special Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 336,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1023,
+  "Description": "Verwaltung Alldays",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1020,
+  "Description": "Verwaltung Ost",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1022,
+  "Description": "Verwaltung PE",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1021,
+  "Description": "Verwaltung West",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 859,
+  "Description": "Zagreb",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1323,
+  "Description": "Conference Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 586,
+  "Description": "Prague",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 142,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1198,
+  "Description": "Alshaikh Ismail Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1324,
+  "Description": "Site Delivery Organization & MPD",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1197,
+  "Description": "Training Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 621,
+  "Description": "Copenhagen",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1321,
+  "Description": "Conference Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1084,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1013,
+  "Description": "Dzerzhinsk Plant rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 372,
+  "Description": "Cairo",
+  "SubGroups": [
+    {
+      "Id": 373,
+      "Description": "Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 394,
+      "Description": "Restricted Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 373,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 394,
+  "Description": "Restricted Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 974,
+  "Description": "Cairo PSC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 736,
+  "Description": "Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 124,
+  "Description": "Building 1",
+  "SubGroups": [
+    {
+      "Id": 126,
+      "Description": "Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 126,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 147,
+  "Description": "ESS Studio Space",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 986,
+  "Description": "Container Area",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 984,
+  "Description": "D-Line Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 983,
+  "Description": "Engineering Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 985,
+  "Description": "Main Building / Hauptgebäude",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 988,
+  "Description": "Production",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 943,
+  "Description": "Espoo",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 644,
+  "Description": "Asnieres",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1188,
+  "Description": "Blowing",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1187,
+  "Description": "Packing FC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1189,
+  "Description": "Packing HC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1186,
+  "Description": "Uffici",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1104,
+  "Description": "Admin Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1106,
+  "Description": "Laundry Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1105,
+  "Description": "Paper Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1103,
+  "Description": "Sekerpinar",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 934,
+  "Description": "Geneva AIC ",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 138,
+  "Description": "Lancy",
+  "SubGroups": [
+    {
+      "Id": 1280,
+      "Description": "Pilot - Mini Conference Rooms ",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1280,
+  "Description": "Pilot - Mini Conference Rooms ",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 226,
+  "Description": "Lancy Resources",
+  "SubGroups": [
+    {
+      "Id": 843,
+      "Description": "Mobile Gentner phone system",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 843,
+  "Description": "Mobile Gentner phone system",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 474,
+  "Description": "Restaurant Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 666,
+  "Description": "Geneva LIC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 662,
+  "Description": "Cologne",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 709,
+  "Description": "BW",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 710,
+  "Description": "FSH",
+  "SubGroups": [
+    {
+      "Id": 835,
+      "Description": "Resources Gästespeisesaal 013",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 835,
+  "Description": "Resources Gästespeisesaal 013",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 711,
+  "Description": "LAB",
+  "SubGroups": [
+    {
+      "Id": 899,
+      "Description": "Restricted Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 899,
+  "Description": "Restricted Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 705,
+  "Description": "VB",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 923,
+  "Description": "K01",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 903,
+  "Description": "K03",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 902,
+  "Description": "K05",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 904,
+  "Description": "K09",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 905,
+  "Description": "K10",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 906,
+  "Description": "K14",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 203,
+  "Description": "Event Area",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 201,
+  "Description": "Schwalbach Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 196,
+  "Description": "Schwalbach S01 (G2)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 193,
+  "Description": "Schwalbach S02 (G1)",
+  "SubGroups": [
+    {
+      "Id": 893,
+      "Description": "Business Sphere Room",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 893,
+  "Description": "Business Sphere Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 197,
+  "Description": "Schwalbach Tech Centre",
+  "SubGroups": [
+    {
+      "Id": 205,
+      "Description": "Consumer Research",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 551,
+      "Description": "Laborräume",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 204,
+      "Description": "Restricted Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 668,
+      "Description": "STC A & MP",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 205,
+  "Description": "Consumer Research",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 551,
+  "Description": "Laborräume",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 204,
+  "Description": "Restricted Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 668,
+  "Description": "STC A & MP",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 270,
+  "Description": "Sonderspeiseräume",
+  "SubGroups": [
+    {
+      "Id": 823,
+      "Description": "SWA SOND C044",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 823,
+  "Description": "SWA SOND C044",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1224,
+  "Description": "Building 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1225,
+  "Description": "Building 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1038,
+  "Description": "Goa Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 163,
+  "Description": "Athens GO",
+  "SubGroups": [
+    {
+      "Id": 499,
+      "Description": "24HR Notice Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 499,
+  "Description": "24HR Notice Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1087,
+  "Description": "Converting Team Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1088,
+  "Description": "GBEC Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1089,
+  "Description": "Plant Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1090,
+  "Description": "Process Team Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1017,
+  "Description": "Conference Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1322,
+  "Description": "Conference Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 304,
+  "Description": "Oficinas Generales",
+  "SubGroups": [
+    {
+      "Id": 337,
+      "Description": "Public Meeting Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 305,
+      "Description": "Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 337,
+  "Description": "Public Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 305,
+  "Description": "Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 577,
+  "Description": "Planta Escuintla",
+  "SubGroups": [
+    {
+      "Id": 580,
+      "Description": "Public Meeting Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 530,
+      "Description": "Recursos Disponibles",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 580,
+  "Description": "Public Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 530,
+  "Description": "Recursos Disponibles",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1319,
+  "Description": "Buildings 40-41",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 158,
+  "Description": "Main Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 315,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 316,
+  "Description": "Hong Kong Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1039,
+  "Description": "Admin Bld.",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1107,
+  "Description": "Building 32",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1109,
+  "Description": "Office Area",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1108,
+  "Description": "Porta Cabin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 947,
+  "Description": "Budapest GO Corvin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 701,
+  "Description": "Beaver Court",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 700,
+  "Description": "Pepper Road",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 699,
+  "Description": "York Rd",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1040,
+  "Description": "Construction Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1113,
+  "Description": "Open Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1112,
+  "Description": "Training Center Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 771,
+  "Description": "Bangalore Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 378,
+  "Description": "Mumbai Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 367,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 368,
+  "Description": "Indonesia Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1172,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1173,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 450,
+  "Description": "Dublin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 639,
+  "Description": "Tel Aviv",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1326,
+  "Description": "test",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 948,
+  "Description": "Pomezia",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 816,
+  "Description": "Rome Europark",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 467,
+  "Description": "Kobe 1 - 15 Floor Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 468,
+  "Description": "Kobe 16 - 29 Floor Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 775,
+  "Description": "Kobe 29 Floor External Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 839,
+  "Description": "Kobe 29F Executive Lounge",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 469,
+  "Description": "Kobe 30 Floor Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 470,
+  "Description": "Resources",
+  "SubGroups": [
+    {
+      "Id": 471,
+      "Description": "A/V & IT Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 472,
+      "Description": "Facilities Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 473,
+      "Description": "Special Areas",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 471,
+  "Description": "A/V & IT Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 472,
+  "Description": "Facilities Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 473,
+  "Description": "Special Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 508,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 872,
+  "Description": "Massage Room",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 496,
+  "Description": "Tokyo Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1294,
+  "Description": "Diapers Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1293,
+  "Description": "Distribution Centre Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1291,
+  "Description": "Femcare Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1292,
+  "Description": "JTech Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1295,
+  "Description": "RM Diapers Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1045,
+  "Description": "Administration Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1047,
+  "Description": "Lobby",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1046,
+  "Description": "Production Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1114,
+  "Description": "Buildings 10S-40-41",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1139,
+  "Description": "Bldg 10",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1140,
+  "Description": "Bldg 10E",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1143,
+  "Description": "Bldg 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1141,
+  "Description": "Bldg 51",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1205,
+  "Description": "4th Floor CBC Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1206,
+  "Description": "Bldg 10",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1204,
+  "Description": "Bldg 10E",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1203,
+  "Description": "Bldg 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1207,
+  "Description": "Bldg 51",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1208,
+  "Description": "Bldg 75",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 798,
+  "Description": "Almaty",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 942,
+  "Description": "Almaty Portable Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 783,
+  "Description": "Nairobi GO",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 800,
+  "Description": "14F",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 801,
+  "Description": "15F",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 802,
+  "Description": "16F",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 452,
+  "Description": "A/V and IT Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1300,
+  "Description": "Building 41",
+  "SubGroups": [
+    {
+      "Id": 1302,
+      "Description": "Ground Floor",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 1301,
+      "Description": "Open Office",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 1303,
+      "Description": "Training Center",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1302,
+  "Description": "Ground Floor",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1301,
+  "Description": "Open Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1303,
+  "Description": "Training Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1304,
+  "Description": "Building 42",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1014,
+  "Description": "Duracell LaGrange Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1276,
+  "Description": "LaGrange PPG Engineering",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1026,
+  "Description": "Admin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1025,
+  "Description": "Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 873,
+  "Description": "Beirut",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 930,
+  "Description": "Leipsic Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 502,
+  "Description": "Research and Development",
+  "SubGroups": [
+    {
+      "Id": 504,
+      "Description": "Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 504,
+  "Description": "Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 457,
+  "Description": "A/V Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 456,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 604,
+  "Description": "Health Services ",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1245,
+  "Description": "LMC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1246,
+  "Description": "LPC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1247,
+  "Description": "LSW",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1248,
+  "Description": "PLMC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1279,
+  "Description": "DC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1201,
+  "Description": "Dish",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1199,
+  "Description": "FPB",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1200,
+  "Description": "LDLF",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1202,
+  "Description": "MSG",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1043,
+  "Description": "Admin Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1044,
+  "Description": "BC Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 330,
+  "Description": "Malaysia Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 331,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1181,
+  "Description": "Baby Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 980,
+  "Description": "Admin Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 976,
+  "Description": "Baby Care Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 981,
+  "Description": "CIP5",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 978,
+  "Description": "Fem Care Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 977,
+  "Description": "Haircare Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 975,
+  "Description": "ITC Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 979,
+  "Description": "SNO Block",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 982,
+  "Description": "Stores",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1209,
+  "Description": "Activos",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1210,
+  "Description": "C&P",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1211,
+  "Description": "Edificio Principal",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1212,
+  "Description": "Laboratorio",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1213,
+  "Description": "Storeroom",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1272,
+  "Description": "Mataro Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1024,
+  "Description": "DC Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1018,
+  "Description": "FHC Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1019,
+  "Description": "Front Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 995,
+  "Description": "Auditoriums",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 996,
+  "Description": "B24W Engineering",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 997,
+  "Description": "Baby Care Conf Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 998,
+  "Description": "Baby Care Team Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 999,
+  "Description": "Baby Care Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1000,
+  "Description": "Bldg 14F Conf Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1001,
+  "Description": "Bldg 21 Training Center Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1002,
+  "Description": "Bldg 31 Conf rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1054,
+  "Description": "Bldg 32 Training ",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1005,
+  "Description": "Bldg 51 Conf Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1003,
+  "Description": "Bldg 91 Conf Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1004,
+  "Description": "Bldg 94 Conf Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1006,
+  "Description": "Computer Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1007,
+  "Description": "Converting Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1008,
+  "Description": "Logistics Reservations",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1009,
+  "Description": "Papermaking Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1010,
+  "Description": "Utilities Dept Conf rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1297,
+  "Description": "Offices",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 220,
+  "Description": "Mexico GO Vista Hermosa",
+  "SubGroups": [
+    {
+      "Id": 244,
+      "Description": "A/V Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 882,
+      "Description": "Edificio A",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 883,
+      "Description": "Edificio D",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 884,
+      "Description": "Edificio E",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 746,
+      "Description": "Salas GO - Restricted",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 888,
+      "Description": "Salon de Usos Multiples",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 244,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 882,
+  "Description": "Edificio A",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 883,
+  "Description": "Edificio D",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 884,
+  "Description": "Edificio E",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 746,
+  "Description": "Salas GO - Restricted",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 888,
+  "Description": "Salon de Usos Multiples",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1041,
+  "Description": "Minhang",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1110,
+  "Description": "Mohammedia Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1318,
+  "Description": "Monterrey GO rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1282,
+  "Description": "Offices",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1283,
+  "Description": "Production",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 439,
+  "Description": "Casablanca GO",
+  "SubGroups": [
+    {
+      "Id": 441,
+      "Description": "Casablanca Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 660,
+      "Description": "IN touch (1st flr Big)",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 441,
+  "Description": "Casablanca Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 660,
+  "Description": "IN touch (1st flr Big)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1182,
+  "Description": "Admin 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1183,
+  "Description": "Admin 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1184,
+  "Description": "Admin 3",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1171,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 171,
+  "Description": "Rotterdam",
+  "SubGroups": [
+    {
+      "Id": 182,
+      "Description": "Rotterdam Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 182,
+  "Description": "Rotterdam Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 555,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 556,
+  "Description": "Skill Building Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 806,
+  "Description": "Lagos",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1190,
+  "Description": "Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 629,
+  "Description": "Oslo",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1162,
+  "Description": "Back office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1163,
+  "Description": "BC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1164,
+  "Description": "Bottle Blowing",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1165,
+  "Description": "DC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1166,
+  "Description": "Liquids",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1167,
+  "Description": "MSG",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1314,
+  "Description": "PSC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1168,
+  "Description": "PSG",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 737,
+  "Description": "NYC Beauty Center",
+  "SubGroups": [
+    {
+      "Id": 848,
+      "Description": "AV Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 848,
+  "Description": "AV Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1101,
+  "Description": "Building 10",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1096,
+  "Description": "Building 40",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1097,
+  "Description": "Building 41",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1098,
+  "Description": "Building 42",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1099,
+  "Description": "Building 43",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1100,
+  "Description": "Building 50",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1268,
+  "Description": "Admin",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1270,
+  "Description": "DC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1271,
+  "Description": "RPM",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1269,
+  "Description": "Soap Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1065,
+  "Description": "Admin Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1067,
+  "Description": "Operations",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1068,
+  "Description": "Villa",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 991,
+  "Description": "Coevorden Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 992,
+  "Description": "Main Office",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 993,
+  "Description": "Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 994,
+  "Description": "Warehouse",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 784,
+  "Description": "Karachi",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 312,
+  "Description": "A/V Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 937,
+  "Description": "Torre V",
+  "SubGroups": [
+    {
+      "Id": 945,
+      "Description": "L2",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 938,
+      "Description": "L3",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 939,
+      "Description": "L4",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 793,
+      "Description": "L7",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 945,
+  "Description": "L2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 938,
+  "Description": "L3",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 939,
+  "Description": "L4",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 793,
+  "Description": "L7",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 275,
+  "Description": "Lima GO",
+  "SubGroups": [
+    {
+      "Id": 277,
+      "Description": "A/V Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 1277,
+      "Description": "Piso 4",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 636,
+      "Description": "Piso 5",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 726,
+      "Description": "Restricted - Piso 11",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 277,
+  "Description": "A/V Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1277,
+  "Description": "Piso 4",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 636,
+  "Description": "Piso 5",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 726,
+  "Description": "Restricted - Piso 11",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 362,
+  "Description": "GO (6750)",
+  "SubGroups": [
+    {
+      "Id": 552,
+      "Description": "AV Equipment - GO (6750)",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 363,
+      "Description": "Conference Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 364,
+      "Description": "Huddle Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 366,
+      "Description": "Training Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 552,
+  "Description": "AV Equipment - GO (6750)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 363,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 364,
+  "Description": "Huddle Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 366,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 356,
+  "Description": "Petron (GBS)",
+  "SubGroups": [
+    {
+      "Id": 553,
+      "Description": "AV Equipment - Petron (GBS)",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 359,
+      "Description": "Conference Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 358,
+      "Description": "Huddle Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 553,
+  "Description": "AV Equipment - Petron (GBS)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 359,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 358,
+  "Description": "Huddle Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 165,
+  "Description": " Warsaw GO Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 475,
+  "Description": " Warsaw Resources",
+  "SubGroups": [
+    {
+      "Id": 493,
+      "Description": "Accessories",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 495,
+      "Description": "Beamers",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 494,
+      "Description": "Laptops",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 492,
+      "Description": "Massage",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 493,
+  "Description": "Accessories",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 495,
+  "Description": "Beamers",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 494,
+  "Description": "Laptops",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 492,
+  "Description": "Massage",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 593,
+  "Description": " Warsaw Sienna",
+  "SubGroups": [
+    {
+      "Id": 860,
+      "Description": "Massage",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 594,
+      "Description": "Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 595,
+      "Description": "Warsaw Sienna Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 860,
+  "Description": "Massage",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 594,
+  "Description": "Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 595,
+  "Description": "Warsaw Sienna Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 808,
+  "Description": "Warsaw Cube Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1242,
+  "Description": "Warsaw PSC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1267,
+  "Description": "Pomezia Plant Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 388,
+  "Description": "Lisbon GO",
+  "SubGroups": [
+    {
+      "Id": 390,
+      "Description": "Lisbon Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 390,
+  "Description": "Lisbon Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 477,
+  "Description": "San Juan GO",
+  "SubGroups": [
+    {
+      "Id": 479,
+      "Description": "6th Floor Rooms",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 478,
+      "Description": "A/V Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 479,
+  "Description": "6th Floor Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 478,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1152,
+  "Description": "A Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1153,
+  "Description": "E Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 949,
+  "Description": "Bucharest IRIDE Resource",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 799,
+  "Description": "Bucharest IRIDE Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 950,
+  "Description": "Bucharest NOVO Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 929,
+  "Description": "Bucharest NOVO Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 765,
+  "Description": "Metropolis",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 780,
+  "Description": "Metropolis 24h",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1122,
+  "Description": "Sacramento Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1298,
+  "Description": "Administration",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1307,
+  "Description": "Auditorium",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1306,
+  "Description": "Gym",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 928,
+  "Description": "Jeddah",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1221,
+  "Description": "Floor 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1220,
+  "Description": "Floor 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 290,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 291,
+  "Description": "Meeting Rooms Tower A&B",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 907,
+  "Description": "SCSC Meeting Rooms [priority to SCSC]",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 918,
+  "Description": "SgIC - Immunos",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 293,
+  "Description": "Special Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 292,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1287,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1260,
+  "Description": "Conference Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1262,
+  "Description": "Special Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1261,
+  "Description": "Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 900,
+  "Description": "Johannesburg GO (NEW)",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 677,
+  "Description": "Madrid GO",
+  "SubGroups": [
+    {
+      "Id": 537,
+      "Description": "Madrid Catering",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 192,
+      "Description": "Madrid Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 537,
+  "Description": "Madrid Catering",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 192,
+  "Description": "Madrid Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1042,
+  "Description": "Perfume Module",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1076,
+  "Description": "Cascade",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1091,
+  "Description": "GM",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1077,
+  "Description": "Grand Central Support Center",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1078,
+  "Description": "Liquids",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1092,
+  "Description": "On Site Warehouse",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1079,
+  "Description": "Operations Support Center South",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1093,
+  "Description": "Value-Add/Customization",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1275,
+  "Description": "Main Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 145,
+  "Description": "Stockholm GO",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 160,
+  "Description": "Stockholm Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 384,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 385,
+  "Description": "Taiwan Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1230,
+  "Description": "HR Priority",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1229,
+  "Description": "Office Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 294,
+  "Description": "Test Folder",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 339,
+  "Description": "A/V & IT Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 340,
+  "Description": "BKK GO Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 341,
+  "Description": "BKK GO Training Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1053,
+  "Description": "Tianjin PCC Plant",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1115,
+  "Description": "Admin Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 133,
+  "Description": "AV / Meeting Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 135,
+  "Description": "Toronto Conference rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 134,
+  "Description": "Toronto Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 141,
+  "Description": "Istanbul",
+  "SubGroups": [
+    {
+      "Id": 583,
+      "Description": "Istanbul Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 583,
+  "Description": "Istanbul Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 129,
+  "Description": "Brooklands",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 130,
+  "Description": "Brooklands Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 354,
+  "Description": "Table Reservations",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 105,
+  "Description": "Cobalt 12",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 108,
+  "Description": "Cobalt Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 106,
+  "Description": "New Hedley House",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 97,
+  "Description": "Eurest Catering",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 68,
+  "Description": "LINC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 69,
+  "Description": "LINC A/V",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 437,
+  "Description": "Special Areas",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 109,
+  "Description": "NIC Conference Centre",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 110,
+  "Description": "NIC Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 558,
+  "Description": "Private Room Catering",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 491,
+  "Description": "Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1264,
+  "Description": "Seaton Delaval Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1132,
+  "Description": "F Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1133,
+  "Description": "I Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 667,
+  "Description": "Kiev GO",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 679,
+  "Description": "Kiev Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 673,
+  "Description": "Dubai",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 463,
+  "Description": "Sorokaima GO",
+  "SubGroups": [
+    {
+      "Id": 464,
+      "Description": "A/V Equipment",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 516,
+      "Description": "CLIC",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 518,
+      "Description": "CRC",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 465,
+      "Description": "PGV",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    },
+    {
+      "Id": 466,
+      "Description": "R&D",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 464,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 516,
+  "Description": "CLIC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 518,
+  "Description": "CRC",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 465,
+  "Description": "PGV",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 466,
+  "Description": "R&D",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 350,
+  "Description": "A/V Equipment",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 351,
+  "Description": "Vietnam Meeting Rooms",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1312,
+  "Description": "Administracion",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1249,
+  "Description": "Targówek Plant Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 601,
+  "Description": "Woodland Hills",
+  "SubGroups": [
+    {
+      "Id": 717,
+      "Description": "A/V Meeting Resources",
+      "SubGroups": [],
+      "IsValid": true,
+      "BrokenBusinessRules": [],
+      "AllChildBrokenBusinessRules": []
+    }
+  ],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 717,
+  "Description": "A/V Meeting Resources",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1235,
+  "Description": "Admin Building",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1238,
+  "Description": "Baby Care Phase 1& 2",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1241,
+  "Description": "Baby Care Phase lll & lV",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1236,
+  "Description": "Beauty Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1239,
+  "Description": "Fem Care Phase 1",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1240,
+  "Description": "Fem Care Phase II & III",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+},{
+  "Id": 1237,
+  "Description": "Oral Care",
+  "SubGroups": [],
+  "IsValid": true,
+  "BrokenBusinessRules": [],
+  "AllChildBrokenBusinessRules": []
+}]

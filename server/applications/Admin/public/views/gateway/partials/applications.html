@@ -1,0 +1,125 @@
+<div class = "hpanel hviolet">
+	<div class = "panel-heading"></div>
+	<div class = "panel-body">
+		<fieldset>
+
+			<div class = "form-group" ng-show = "ao.gateway.server.isPri">
+				<div class = "row">
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Controller Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.ctrl.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Wayfinder Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.wyfd.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "form-group" ng-show = "ao.gateway.server.isPri">
+				<div class = "row">
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Discovery Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.dscv.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Scheduler Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.schd.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<div class = "row">
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Monitoring Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.pclg.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Backup Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.bkup.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<div class = "row">
+					<div class = "col col-sm-4 col-xs-6">
+						<label>Terminal Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.term.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+					<div class = "col col-sm-4 col-xs-6" ng-show = "ao.gateway.server.isPri">
+						<label>Analytics Service:</label>
+					</div>
+					<div class = "col col-sm-2 col-xs-6" ng-show = "ao.gateway.server.isPri">
+						<div class = "controls">
+							<label class = "switch switch-lg">
+								<input type = "checkbox" ng-model = "ao.gateway.altc.enabled"/>
+								<span></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</fieldset>
+	</div>
+</div>
+<ul class = "pager">
+	<li class = "previous">
+		<a href = "#" ng-click = "wizard.go(6)">
+			<span>&larr; Previous</span>
+		</a>
+	</li>
+	<li class = "next"><a href = "#" ng-click = "wizard.go(8)">Next <span>&rarr;</span></a>
+	</li>
+</ul>

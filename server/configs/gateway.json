@@ -1,0 +1,151 @@
+{
+  "server": {
+    "uuid": "0C4DE9ABE80F",
+    "name": "Mac Development System",
+    "installed": "Office Rack",
+    "type": "Darwin x64 (15.0.0)",
+    "arch": "x64",
+    "node": "0.10.40",
+    "v8": "3.14.5.9",
+    "uid": 501,
+    "pid": 1277,
+    "role": "primary",
+    "isPri": true
+  },
+  "timezone": {
+    "value": "W. Europe Standard Time",
+    "abbr": "WEDT",
+    "offset": 2,
+    "isdst": true,
+    "text": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+  },
+  "project": {
+    "name": "Agile Office Development",
+    "company": "BOI Solutions, Inc",
+    "location": {
+      "address": "955 Mound Road",
+      "city": "Miamisburg",
+      "state": "OH",
+      "zipcode": "45342",
+      "country": "USA",
+      "lat": "39.63038",
+      "log": "-84.2821",
+      "id": "ChIJGbWdZmNiQIgRSWpgFyMzZ-4"
+    },
+    "contact": {
+      "name": "Jairo Martinez",
+      "phone": "9704567952",
+      "email": "jmartinez@boisolutions.com",
+      "title": "Lead Developer"
+    }
+  },
+  "network": {
+    "name": "en0",
+    "mode": "A",
+    "ip": "172.16.76.4",
+    "gw": "172.16.76.1",
+    "dns": "137.183.226.11",
+    "mac": "0c:4d:e9:ab:e8:0f",
+    "sub": "0.0.0.0"
+  },
+  "db": {
+    "schema": "agileoffice-gateway",
+    "ip": "127.0.0.1",
+    "user": "ao",
+    "pass": "a1b2c3d4e5",
+    "port": 3306,
+    "dialect": "mysql",
+    "debug": false,
+    "backup": false
+  },
+  "mntr": {
+    "enabled": true,
+    "server": "boi.selfip.com",
+    "port": 3010,
+    "syncIn": 30,
+    "debug": false
+  },
+  "http": {
+    "enabled": true,
+    "port": 3000,
+    "debug": false
+  },
+  "ctrl": {
+    "enabled": true,
+    "port": 3001,
+    "factoryPass": "BOI",
+    "password": "boi123",
+    "heartbeat": 299,
+    "timeout": 30,
+    "debug": false,
+    "maxUpTime": 80000,
+    "firmware": {
+      "version": "",
+      "name": ""
+    },
+    "reboot": {
+      "enable": false,
+      "when": 0
+    }
+  },
+  "wyfd": {
+    "enabled": true,
+    "port": 3002,
+    "debug": false,
+    "bgImage": "",
+    "logo": ""
+  },
+  "schd": {
+    "enabled": true,
+    "debug": false,
+    "external": true,
+    "typeId": 1,
+    "typeName": "Resource Scheduler",
+    "server": "http://resourcescheduler.pg.com",
+    "url": "/resourcescheduler.webservice/resourceschedulerservice.asmx?WSDL",
+    "auth": {
+      "user": "amx",
+      "pass": ""
+    },
+    "bgImage": "",
+    "logo": ""
+  },
+  "dscv": {
+    "enabled": true,
+    "debug": false
+  },
+  "term": {
+    "enabled": true,
+    "port": 3003,
+    "users": {
+      "roomfinder": "boi123"
+    },
+    "log": false,
+    "debug": false,
+    "shell": "bash",
+    "sessionTimeout": 600000,
+    "term": {
+      "geometry": [
+        120,
+        30
+      ]
+    }
+  },
+  "pclg": {
+    "enabled": true,
+    "debug": false
+  },
+  "altc": {
+    "enabled": false,
+    "debug": false
+  },
+  "bkup": {
+    "enabled": true,
+    "address": "http://172.16.76.102:3000",
+    "status": "OFFLINE",
+    "debug": false
+  },
+  "updatedAt": "2015-10-19T15:01:16.104Z",
+  "restart": false,
+  "referenceAt": "2015-07-13T15:50:21.214Z"
+}

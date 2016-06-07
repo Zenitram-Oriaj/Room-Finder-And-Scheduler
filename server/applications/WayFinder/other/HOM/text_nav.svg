@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1150" height="768" viewBox="0, 0, 1150, 768">
+  <g id="text_nav" transform="translate(0, 0)">
+    <text transform="matrix(1, 0, 0, 1, 961.6, 153.217)">
+      <tspan x="-95.988" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Master Bedroom</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 813.04, 559.701)">
+      <tspan x="-89.772" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Guest Bedroom</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 539.961, 508.701)">
+      <tspan x="-33.84" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Office</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 309.199, 135.717)">
+      <tspan x="-43.992" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Kitchen</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 274.413, 464.717)">
+      <tspan x="-71.532" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Living Room</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 354.204, 692.586)">
+      <tspan x="-33.792" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Porch</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 149.496, 124.983)">
+      <tspan x="-36.648" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">Dining</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 523.559, 362.275)">
+      <tspan x="-33.012" y="8.5" font-family="HelveticaNeue-Bold" font-size="24" fill="#000000">HVAC</tspan>
+    </text>
+  </g>
+</svg>

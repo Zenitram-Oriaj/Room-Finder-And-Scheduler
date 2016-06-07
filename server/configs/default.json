@@ -1,0 +1,150 @@
+{
+  "server": {
+    "uuid": "",
+    "name": "",
+    "installed": "",
+    "type": "",
+    "arch": "",
+    "node": "",
+    "v8": "",
+    "uid": 0,
+    "pid": 0,
+    "role": "secondary",
+    "isPri": false
+  },
+  "timezone": {
+    "value": "",
+    "abbr": "",
+    "offset": 0,
+    "isdst": false,
+    "text": ""
+  },
+  "project": {
+    "name": "",
+    "company": "",
+    "location": {
+      "address": "",
+      "city": "",
+      "state": "",
+      "zipcode": "",
+      "country": "",
+      "lat": "",
+      "log": "",
+      "id": ""
+    },
+    "contact": {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "title": ""
+    }
+  },
+  "network": {
+    "name": "",
+    "mode": "A",
+    "ip": "",
+    "gw": "",
+    "sub": "",
+    "dns": "",
+    "mac": ""
+  },
+  "db": {
+    "schema": "agileoffice-gateway",
+    "ip": "127.0.0.1",
+    "user": "ao",
+    "pass": "a1b2c3d4e5",
+    "port": 3306,
+    "dialect": "mysql",
+    "debug": false,
+    "backup": false
+  },
+  "mntr": {
+    "enabled": false,
+    "server": "boi.selfip.com",
+    "port": 3010,
+    "syncIn": 30,
+    "debug": false
+  },
+  "http": {
+    "enabled": true,
+    "port": 3000,
+    "debug": false
+  },
+  "ctrl": {
+    "enabled": false,
+    "port": 3001,
+    "factoryPass": "BOI",
+    "password": "boi123",
+    "heartbeat": 299,
+    "timeout": 30,
+    "debug": false,
+    "maxUpTime": 70000,
+    "firmware": {
+      "version": "",
+      "name": ""
+    },
+    "reboot": {
+      "enable": false,
+      "when": 0
+    }
+  },
+  "wyfd": {
+    "enabled": false,
+    "port": 3002,
+    "debug": false,
+    "bgImage": "",
+    "logo": ""
+  },
+  "schd": {
+    "enabled": false,
+    "debug": false,
+    "external": false,
+    "typeId": 1,
+    "typeName": "",
+    "server": "",
+    "url": "",
+    "auth": {
+      "user": "",
+      "pass": ""
+    },
+    "bgImage": "",
+    "logo": ""
+  },
+  "dscv": {
+    "enabled": false,
+    "debug": false
+  },
+  "term": {
+    "enabled": false,
+    "port": 3003,
+    "users": {
+      "roomfinder": "boi123"
+    },
+    "log": false,
+    "debug": false,
+    "shell": "bash",
+    "sessionTimeout": 600000,
+    "term": {
+      "geometry": [
+        120,
+        30
+      ]
+    }
+  },
+  "pclg": {
+    "enabled": false,
+    "debug": false
+  },
+  "altc": {
+    "enabled": false,
+    "debug": false
+  },
+  "bkup": {
+    "enabled": false,
+    "address": "",
+    "status": "OFFLINE",
+    "debug": false
+  },
+  "updatedAt": "1970-01-01T00:00:00.000Z",
+  "restart": false
+}

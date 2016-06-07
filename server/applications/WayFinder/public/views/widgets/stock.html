@@ -1,0 +1,34 @@
+<div class = "widget shadow">
+	<div class = "widget-head">
+		<h3 class = "pull-left"><i class = "fa fa-bank"></i> Stock Price</h3>
+		<div class = "clearfix"></div>
+	</div>
+	<div class = "widget-body">
+		<div class="row">
+			<div class="col-md-12 arrow-block">
+				<h3>{{quote.Name}}</h3>
+				<h4>Currently: <b>{{quote.Ask | currency}}</b> <i class="fa fa-chevron-{{dir}} ha-{{stckColor}}"></i> <span> ({{quote.ChangeinPercent}})</span></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<section class="stockChartClass" style="width: 100%; height: auto;">
+					<article class="chart-container" style="width: 100%; margin: 0 auto; height: auto;">
+						<cjs-line dataset="stockChart" options="opts" responsive="true" height="110px"></cjs-line>
+					</article>
+				</section>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h4 style="color: green">Year High:  {{quote.YearHigh | currency}}</h4>
+			</div>
+			<div class="col-md-6">
+				<h4 style="color: red">Year Low :  {{quote.YearLow | currency}}</h4>
+			</div>
+		</div>
+	</div>
+	<div class = "widget-foot" id="wthrLogo">
+		<img ng-src = "./img/logo/logo-3.png" alt = "Yahoo Stocks"/>
+	</div>
+</div>

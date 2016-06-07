@@ -1,0 +1,30 @@
+<div class = "row">
+
+	<div class = "col-lg-10 col-md-12 col-sm-12 col-xs-12">
+		<div ng-controller = "WorkspaceCtrl">
+			<div class="floorPlan" id = "floorplan-container"></div>
+		</div>
+	</div>
+
+	<div id="sideWidgets" class = "col-lg-2 hidden-md">
+		<div class="row">
+			<div ng-show="ao.location.widgets.dateTime" class="col-lg-12 col-sm-12 col-xs-12">
+				<date-time></date-time>
+			</div>
+			<div ng-show="ao.location.widgets.weather" class="col-lg-12 col-sm-6 col-xs-12">
+				<weather location="ao.location.widgets.weatherID" units="ao.location.widgets.weatherUnit"></weather>
+			</div>
+			<div ng-show="ao.location.widgets.stock" class="col-lg-12 col-sm-6 col-xs-12">
+				<stock name="ao.location.widgets.stockID"></stock>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div class="dwp-logo pull-right">
+			<img ng-src = "./img/{{ao.crnt.locationId}}/img.png" alt = "Floor Logo"/>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,101 @@
+[
+	{
+		"roomId":       1001,
+		"roomName":     "200 Task Force Room",
+		"reservations": [
+			{
+				"id":          1,
+				"title":       "Breaking Down The Walls",
+				"startTime":   "2014-07-16 09:00:00",
+				"stopTime":    "2014-07-16 12:30:00",
+				"duration":    0,
+				"host":        "Byron Harris",
+				"description": ""
+			},
+			{
+				"id":          2,
+				"title":       "P&G For Bounty Cleaning",
+				"startTime":   "2014-07-16 13:00:00",
+				"stopTime":    "2014-07-16 16:00:00",
+				"duration":    0,
+				"host":        "Larry King",
+				"description": ""
+			}
+		]
+	},
+	{
+		"roomId":       1002,
+		"roomName":     "306 Conference Room",
+		"reservations": [
+			{
+				"id":          1,
+				"title":       "Going The Distance",
+				"startTime":   "2014-07-16 08:00:00",
+				"stopTime":    "2014-07-16 10:00:00",
+				"duration":    0,
+				"host":        "Harry Lewis",
+				"description": ""
+			},
+			{
+				"id":          2,
+				"title":       "Passing The Buck",
+				"startTime":   "2014-07-16 11:00:00",
+				"stopTime":    "2014-07-16 12:00:00",
+				"duration":    0,
+				"host":        "Julie Moore",
+				"description": ""
+			},
+			{
+				"id":          3,
+				"title":       "Why Ask Why",
+				"startTime":   "2014-07-16 14:00:00",
+				"stopTime":    "2014-07-16 15:00:00",
+				"duration":    0,
+				"host":        "George Benson",
+				"description": ""
+			},
+			{
+				"id":          4,
+				"title":       "Improving The Day With Ice Cream",
+				"startTime":   "2014-07-16 15:00:00",
+				"stopTime":    "2014-07-16 17:00:00",
+				"duration":    0,
+				"host":        "Ronald McDonald",
+				"description": ""
+			}
+		]
+	},
+	{
+		"roomId":       1003,
+		"roomName":     "315 Conference Room",
+		"reservations": [
+			{
+				"id":          1,
+				"title":       "Never Say Die, Just Run",
+				"startTime":   "2014-07-16 08:00:00",
+				"stopTime":    "2014-07-16 11:30:00",
+				"duration":    0,
+				"host":        "Jennifer Arnold",
+				"description": ""
+			},
+			{
+				"id":          2,
+				"title":       "Crouching The Starting Line",
+				"startTime":   "2014-07-16 13:00:00",
+				"stopTime":    "2014-07-16 14:00:00",
+				"duration":    0,
+				"host":        "Michael Schmidt",
+				"description": ""
+			},
+			{
+				"id":          3,
+				"title":       "What Will Tomorrow Bring For You",
+				"startTime":   "2014-07-16 15:30:00",
+				"stopTime":    "2014-07-16 16:45:00",
+				"duration":    0,
+				"host":        "Suzanne Winkler",
+				"description": ""
+			}
+		]
+	}
+]

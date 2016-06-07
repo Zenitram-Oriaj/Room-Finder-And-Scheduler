@@ -1,0 +1,153 @@
+{
+  "GetResourceTypeSummariesResult": {
+    "ResourceTypeSummaryData": [
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "8",
+        "Description": "A/V Equipment"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "30",
+        "Description": "Auditorium (AUD)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "48",
+        "Description": "Booth"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "35",
+        "Description": "Catering"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "34",
+        "Description": "Consumables"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "27",
+        "Description": "Data Collaboration Room (DCR)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "40",
+        "Description": "Fleet Vehicle"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "32",
+        "Description": "Flex Spaces"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "41",
+        "Description": "HALO Room"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "43",
+        "Description": "Huddle Room"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "46",
+        "Description": "Interview room"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "37",
+        "Description": "IT Training Room"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "47",
+        "Description": "Labs"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "1",
+        "Description": "Meeting Room (MTR)"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "44",
+        "Description": "Meeting room sort"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "36",
+        "Description": "Resources"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "31",
+        "Description": "Special Venue"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "51",
+        "Description": "Sphere Moving soon"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "38",
+        "Description": "Studio"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "39",
+        "Description": "Training Room"
+      },
+      {
+        "IsValid": true,
+        "BrokenBusinessRules": {},
+        "AllChildBrokenBusinessRules": {},
+        "Id": "49",
+        "Description": "Video Enabled Room (VER)"
+      }
+    ]
+  }
+}

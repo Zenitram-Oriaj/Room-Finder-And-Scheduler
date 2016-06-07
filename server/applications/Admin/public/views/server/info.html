@@ -1,0 +1,123 @@
+<div class = "row">
+	<div class = "col-lg-12">
+		<div class = "hpanel hviolet">
+			<div class = "panel-heading">
+				<div panel-tools></div>
+				Server History
+			</div>
+			<div class = "panel-body">
+				<div class = "row">
+
+					<div class = "col-lg-8">
+						<canvas linechart options = "lineOptions" data = "lineData" height = "200" responsive="true"></canvas>
+					</div>
+
+					<div class = "col-lg-4">
+						<div class = "panel text-center">
+							INFORMATION
+						</div>
+						<div class = "row">
+							<div class = "col-md-1"></div>
+							<div class = "col-md-4">
+								Host Name:
+							</div>
+							<div class = "col-md-6">
+								{{ao.info.pcname}}
+							</div>
+						</div>
+						<br/>
+
+						<div class = "row">
+							<div class = "col-md-1"></div>
+							<div class = "col-md-4">
+								Location:
+							</div>
+							<div class = "col-md-6">
+								{{ao.info.location}}
+							</div>
+						</div>
+						<br/>
+
+						<div class = "row">
+							<div class = "col-md-1"></div>
+							<div class = "col-md-4">
+								Up Time:
+							</div>
+							<div class = "col-md-6">
+								{{ao.info.uptime}}
+							</div>
+						</div>
+						<br/>
+
+						<div class = "row">
+							<div class = "col-md-1"></div>
+							<div class = "col-md-4">
+								Server OS:
+							</div>
+							<div class = "col-md-6">
+								{{ao.info.type}}
+							</div>
+						</div>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div class = "panel-footer">
+				Last update: {{lastUpdate | date: 'medium'}}
+			</div>
+		</div>
+	</div>
+</div>
+<div class = "row">
+	<div class = "col-md-4">
+		<div class = "hpanel hgreen">
+			<div class = "panel-heading ">
+				<div panel-tools></div>
+				Gateway Applications Utilization
+			</div>
+			<div class = "panel-body">
+				<div class = "row">
+					<div class = "col-md-9">
+						<canvas donutchart = "" options = "appOpts" data = "appData" legend = true responsive = true></canvas>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-lg-12">
+						<h5>Total Memory Used: <strong>{{totalAppMem}} MBs </strong><span> (Note: Data in chart is shown in MBs.</span></h5>
+					</div>
+				</div>
+			</div>
+			<div class = "panel-footer">
+				Last update: {{lastUpdate | date: 'medium'}}
+			</div>
+		</div>
+	</div>
+	<div class = "col-lg-4">
+		<div class = "hpanel hblue">
+			<div class = "panel-heading">
+				<div panel-tools></div>
+				Server Utilization
+			</div>
+			<div class = "panel-body">
+				<div class = "m">
+					<small><em>CPU Utilization: ({{ao.info.cpuinfo}})</em></small>
+					<progressbar max = "100" value = ao.info.cpupcnt type = "{{ao.info.cpulevel}}" class = "progress-striped full">{{ao.info.cpupcnt}}%
+					</progressbar>
+				</div>
+
+				<div class = "m">
+					<small><em>Memory Utilization: ({{ao.info.meminfo}})</em></small>
+					<progressbar max = "100" value = ao.info.mempcnt type = "{{ao.info.memlevel}}" class = "progress-striped full">{{ao.info.mempcnt}}%
+					</progressbar>
+				</div>
+
+				<div class = "m">
+					<small><em>HDD Utilization: ({{ao.info.hddinfo}})</em></small>
+					<progressbar max = "100" value = "ao.info.hddpcnt" type = "{{ao.info.hddlevel}}" class = "progress-striped full">{{ao.info.hddpcnt}}%
+					</progressbar>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>

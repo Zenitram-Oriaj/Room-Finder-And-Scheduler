@@ -1,0 +1,77 @@
+<div class = "inmodal">
+	<div class = "color-line"></div>
+	<div class = "modal-header">
+		<h4 class = "modal-title">Workspace Configuration</h4>
+		<small class = "font-bold">Parameters Settings And Options</small>
+	</div>
+	<div class = "modal-body">
+		<div class = "hpanel">
+			<tabset class = "tabs-left">
+				<tab>
+					<tab-heading>
+						Basic
+					</tab-heading>
+					<div class = "panel-body">
+
+						<div class = "form-group">
+							<h5 class = "control-label"><b>UUID:</b> <span> {{ws.uuid}}</span>
+							</h5>
+						</div>
+						<div class = "form-group">
+							<label class = "control-label">Name:</label>
+							<div class = "">
+								<input type = "text" class = "form-control" ng-model = "ws.name">
+							</div>
+						</div>
+						<div class = "form-group">
+							<label>Type: </label>
+							<select class = "form-control" ng-model = "ws.type" ng-required = "true" ng-options = "value.idx as value.name for value in typeList"
+											ng-change = "slctType()">
+							</select>
+						</div>
+						<div class = "form-group">
+							<label class = "control-label">Description:</label>
+							<div class = "">
+								<input type = "text" class = "form-control" value = "{{ws.description}}">
+							</div>
+						</div>
+					</div>
+				</tab>
+
+				<tab>
+					<tab-heading>
+						Scheduling
+					</tab-heading>
+					<div class = "panel-body">
+						<fieldset>
+
+							<div class = "form-group">
+								<label>Room Reservable?</label>
+								<div><label> <input icheck type = "checkbox" ng-model = "ws.reservable"> YES</label></div>
+							</div>
+							<div ng-show = "ws.reservable">
+								<div class = "form-group">
+									<label>Reservation ID:</label>
+									<div class = "controls">
+										<input ng-model = "ws.reserveId" ng-required = "true" ng-minlength = "1" type = "number" class = "form-control"/>
+									</div>
+								</div>
+								<div class = "form-group">
+									<label>Allow Local Reservation?</label>
+									<div><label> <input icheck type = "checkbox" ng-model = "ws.allowLocal"> YES</label></div>
+								</div>
+							</div>
+
+						</fieldset>
+					</div>
+				</tab>
+			</tabset>
+		</div>
+	</div>
+	<div class = "modal-footer">
+		<button type = "button" class = "btn btn-outline btn-danger pull-left" ng-click = "delete()">Delete</button>
+		<button type = "button" class = "btn btn-outline btn-warning2" ng-click = "update()">Apply</button>
+		<button type = "button" class = "btn btn-outline btn-primary" ng-click = "cancel()">Close Config</button>
+	</div>
+</div>
+

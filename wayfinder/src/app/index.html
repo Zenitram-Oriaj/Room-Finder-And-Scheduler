@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en" ng-app = "app">
+<head>
+	<title>Agile Office - WayFinder</title>
+	<meta charset = "utf-8">
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel = 'stylesheet' href = 'libs/bootstrap/dist/css/bootstrap.css'/>
+	<link rel = 'stylesheet' href = 'css/app.css'/>
+
+	<script src = "libs/jquery/dist/jquery.js"></script>
+	<script src = "libs/require/require.js"></script>
+	<script src = "libs/angular/angular.js"></script>
+	<script src = "app.js"></script>
+	<script src = "services/browser.js"></script>
+	<script src = "services/splash.js"></script>
+
+	<script>
+		global.$ = $;
+	</script>
+
+</head>
+<body ng-cloak class = "no-select" ng-controller = "AppCtrl">
+
+<splash timeout = "5">
+	<h1>Agile Office - WayFinder</h1>
+	<p>Loading The Application And Local Config File. Please Standby. </p>
+</splash>
+
+<div class="container">
+	<br/>
+	<div class="jumbotron">
+		<h3>Enter The Gateway Server's Web Address</h3>
+		<h5><em>Example (case-sensitive): http://155.123.247.140:3002/?locationId=GBO&floorId=L0W</em></h5>
+		<div class="form-group">
+			<input type="text" placeholder="Web Address" ng-model="ao.url" class="form-control">
+		</div>
+		<p><a class="btn btn-lg btn-success" href="#" role="button" ng-click="connect()">Connect To Server</a></p>
+	</div>
+</div>
+</body>
+</html>

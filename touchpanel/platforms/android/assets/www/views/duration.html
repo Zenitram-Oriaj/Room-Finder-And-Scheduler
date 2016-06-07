@@ -1,0 +1,21 @@
+<table class="timepicker">
+	<tbody>
+	<tr class = "text-center">
+		<td><a ng-click = "incrementMinutes()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-up"></span></a></td>
+		<td>&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td class = "form-group" ng-class = "{'has-error': invalidMinutes}">
+			<input type = "text" ng-model = "minutes" ng-change = "updateMinutes()" class = "form-control text-center"
+						 maxlength = "3" ng-readonly = "readonlyInput"/>
+		</td>
+		<td style="vertical-align: middle">&nbsp;Minutes</td>
+	</tr>
+
+	<tr class = "text-center">
+		<td><a ng-click = "decrementMinutes()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-down"></span></a></td>
+		<td>&nbsp;</td>
+	</tr>
+	</tbody>
+</table>

@@ -1,0 +1,53 @@
+<div class = "modal">
+	<div class = "titlebar shadow">
+		<img class = " logo pull-left" src = "img/logo.png" alt = "logo"/>
+		<div class = "title">Update Reservation</div>
+		<a href = "#" class = "btn btn-primary fa fa-2x fa-close pull-right" ng-click = "hideModal(modalId)"></a>
+	</div>
+
+	<br/>
+
+	<div class = "row">
+		<div class = "col col-33">
+			<h4>Start Time:</h4>
+		</div>
+		<div class = "col col-25">
+			<h4>Duration:</h4>
+		</div>
+		<div class = "col col-40">
+			<h4>Local Reservation Details:</h4>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col col-33">
+			<timepicker ng-model = "res.startTime" ng-change = "changeStart()" hour-step = "hstep" minute-step = "mstep1"></timepicker>
+		</div>
+		<div class = "col col-25">
+			<duration></duration>
+		</div>
+		<div class = "col col-40">
+			<res-details></res-details>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col">
+			<res-notes></res-notes>
+		</div>
+	</div>
+
+	<div class = "bar bar-footer">
+		<div class = "row">
+			<div class = "col col-33">
+				<button class = "button button-block button-balanced" ng-click = "updateRes()"> Update</button>
+			</div>
+			<div class = "col col-33">
+				<button class = "button button-block button-assertive" ng-click = "delReservation()"> Delete</button>
+			</div>
+			<div class = "col col-33">
+				<button class = "button button-block button-energized" ng-click = "hideModal(modalId)"> Close</button>
+			</div>
+		</div>
+	</div>
+</div>

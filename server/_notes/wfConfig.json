@@ -1,0 +1,92 @@
+{
+  "type": "WFD",
+  "uuid": "40E230FB404E",
+  "name": "Way Finder Display",
+  "desc": "",
+  "ip": "155.123.247.222",
+  "browser": {
+    "chrome": true,
+    "version": "41.0.2272.76",
+    "versionNumber": 41,
+    "win": true,
+    "desktop": true,
+    "webkit": true,
+    "name": "chrome",
+    "platform": "win",
+    "geoLocation": {}
+  },
+  "os": {
+    "arch": "Win32",
+    "info": [
+      "Windows NT 6.3"
+    ]
+  },
+  "screen": {
+    "width": 1920,
+    "height": 1080,
+    "colorDepth": 24
+  },
+  "turnkey": true,
+  "bgColor": "#0099ff",
+  "refresh": {
+    "enabled": false,
+    "timing": 0
+  },
+  "dflt": {
+    "floorId": "L0W",
+    "locationId": "GBO",
+    "regionId": "GBL"
+  },
+  "crnt": {
+    "floorId": "L0W",
+    "locationId": "GBO",
+    "regionId": "GBL"
+  },
+  "tzs": {
+    "timeZoneId": "",
+    "tzOffset": 0,
+    "dst": 0
+  },
+  "companyId": "",
+  "location": {
+    "uuid": "GBO",
+    "name": "Geneva Business Offices",
+    "description": "First Field Install Of Agile Office 2",
+    "timeZoneId": "Central European Standard Time",
+    "tzOffset": 2,
+    "regionId": 1,
+    "floors": [
+      {
+        "id": 1,
+        "uid": "L0E",
+        "name": "Ground Floor East",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "uid": "L0W",
+        "name": "Ground Floor West",
+        "description": ""
+      }
+    ],
+    "css": {
+      "color": "#0099ff"
+    },
+    "widgets": {
+      "dateTime": true,
+      "calendar": false,
+      "news": false,
+      "newsSrc": "",
+      "weather": true,
+      "weatherID": "geneva, switzerland",
+      "weatherUnit": "c",
+      "stock": true,
+      "stockID": "PG"
+    }
+  },
+  "createdAt": "2015-08-05T15:44:51.388Z",
+  "updatedAt": "2015-08-05T15:44:51.388Z",
+  "refreshAt": "2015-08-05T15:44:51.388Z",
+  "heartbeatAt": "2015-08-05T15:44:51.388Z",
+  "uptime": 11
+}

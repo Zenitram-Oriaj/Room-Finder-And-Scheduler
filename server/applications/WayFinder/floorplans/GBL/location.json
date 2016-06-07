@@ -1,0 +1,28 @@
+{
+  "uuid": "GBL",
+  "name": "General Offices",
+  "description": "Generic Option",
+  "timeZoneId": "Eastern Standard Time",
+  "tzOffset": -4,
+  "regionId": 0,
+  "floors":[{
+    "id": 1,
+    "uuid": "",
+    "name": "",
+    "description": ""
+  }],
+  "css": {
+    "color": "#272B34"
+  },
+  "widgets": {
+    "dateTime": false,
+    "calendar": false,
+    "news": false,
+    "newsSrc": "",
+    "weather": false,
+    "weatherID": "",
+    "weatherUnit": "f",
+    "stock": false,
+    "stockID": ""
+  }
+}

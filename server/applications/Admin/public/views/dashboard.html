@@ -1,0 +1,104 @@
+<div id = "header" ng-include = "'views/common/header.html'"></div>
+<aside id = "menu" ng-include = "'views/common/navigation.html'"></aside>
+
+<!-- Main Wrapper -->
+<div id = "wrapper">
+	<div ng-controller = "DashboardCtrl" class = "content" animate-panel effect = "zoomIn">
+		<div class = "row">
+			<div class = "col-md-4">
+				<div class = "hpanel hbggreen">
+					<div class = "panel-body">
+						<div class = "text-center">
+							<h3>CONTROLLERS ONLINE</h3>
+							<p class = "text-big font-light">
+								{{info.ctOnline}}
+							</p>
+							<small>
+								Based On The Last Update @ {{ao.updatedAt | date: 'medium'}}
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "col-md-4">
+				<div class = "hpanel hbgred">
+					<div class = "panel-body">
+						<div class = "text-center">
+							<h3>WORKSPACES OCCUPIED</h3>
+							<p class = "text-big font-light">
+								{{info.occupied}}
+							</p>
+							<small>
+								Based On The Last Update @ {{ao.updatedAt | date: 'medium'}}
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "col-md-4">
+				<div class = "hpanel hbgblue">
+					<div class = "panel-body">
+						<div class = "text-center">
+							<h3>ROOMS SCHEDULED</h3>
+							<p class = "text-big font-light">
+								{{info.scheduled}}
+							</p>
+							<small>
+								Based On The Last Update @ {{ao.updatedAt | date: 'medium'}}
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "col-md-4">
+				<div class = "hpanel hbgviolet">
+					<div class = "panel-body">
+						<div class = "text-center">
+							<h3>TOUCHPANELS ONLINE</h3>
+							<p class = "text-big font-light">
+								{{info.tpOnline}}
+							</p>
+							<small>
+								Based On The Last Update @ {{ao.updatedAt | date: 'medium'}}
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "col-md-4">
+				<div class = "hpanel hbgorange">
+					<div class = "panel-body">
+						<div class = "text-center">
+							<h3>WAYFINDERS ONLINE</h3>
+							<p class = "text-big font-light">
+								{{info.wdOnline}}
+							</p>
+							<small>
+								Based On The Last Update @ {{ao.updatedAt | date: 'medium'}}
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "col-md-4">
+				<div class = "hpanel hbgnavyblue">
+					<div class = "panel-body">
+						<div class = "text-center">
+							<h3>AVERAGE DURATION</h3>
+							<p class = "text-big font-light">
+								{{info.duration}}
+							</p>
+							<small>
+								Based On The Last Update @ {{ao.updatedAt | date: 'medium'}}
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

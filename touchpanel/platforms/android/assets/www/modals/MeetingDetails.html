@@ -1,0 +1,62 @@
+<div class="modal">
+	<div class = "titlebar shadow">
+		<img class = "logo pull-left" src = "img/logo.png" alt = "logo"/>
+		<div class="title">Reservation Details</div>
+		<a href="#" class="btn btn-primary fa fa-2x fa-close pull-right" ng-click="hideModal(6)"></a>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col col-10">
+			<h3>Title: </h3>
+		</div>
+		<div class="col col-60">
+			<h3>{{refMeeting.description}}</h3>
+		</div>
+		<div class="col col-10">
+			<h3>Starts: </h3>
+		</div>
+		<div class="col col-20">
+			<h3>{{refMeeting.startTime | date:'shortTime'}}</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col col-10">
+			<h3>Host: </h3>
+		</div>
+		<div class="col col-60">
+			<h3>{{refMeeting.host}}</h3>
+		</div>
+		<div class="col col-10">
+			<h3>Ends: </h3>
+		</div>
+		<div class="col col-20">
+			<h3>{{refMeeting.stopTime | date:'shortTime'}}</h3>
+		</div>
+	</div>
+	<hr/>
+	<div class="row">
+		<div class="col col-20">
+			<h3>Attendees:</h3>
+		</div>
+		<div class="col col-80">
+			<h3>{{refMeeting.attendeeList}}</h3>
+		</div>
+	</div>
+	<hr/>
+
+	<div class="bar bar-footer">
+		<div class="row" ng-show="refMeeting.opts">
+			<div class="col col-50">
+				<button class="button button-block" ng-click="hideModal(6)">Close</button>
+			</div>
+			<div class="col col-50">
+				<button class="button button-block button-positive" ng-click="editReservation()">Edit Reservation</button>
+			</div>
+		</div>
+		<div class="row" ng-hide="refMeeting.opts">
+			<div class="col">
+				<button class="button button-block button-balanced" ng-click="hideModal(6)">Close</button>
+			</div>
+		</div>
+	</div>
+</div>

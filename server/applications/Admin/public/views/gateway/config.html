@@ -1,0 +1,85 @@
+
+	<div class = "row">
+		<div class = "col-lg-12">
+			<!-- START panel-->
+			<div class = "hpanel">
+				<div class = "panel-heading">Gateway Configuration Wizard</div>
+				<div class = "panel-body">
+					<form form-wizard = "" action = "/" method = "POST" steps = "10">
+						<div class = "form-wizard wizard-vertical">
+
+							<!-- START wizard steps indicator-->
+							<ol>
+								<li ng-class = "{'active':wizard.active(1)}" ng-click = "wizard.go(1)">
+									<h4 class = "mb0">System Info</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(2)}" ng-click = "wizard.go(2)">
+									<h4 class = "mb0">Project Info</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(3)}" ng-click = "wizard.go(3)">
+									<h4 class = "mb0">IP Configuration</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(4)}" ng-click = "wizard.go(4)">
+									<h4 class = "mb0" ng-hide = "ao.gateway.server.isPri">Primary Server</h4>
+									<h4 class = "mb0" ng-show = "ao.gateway.server.isPri">Secondary Server</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(5)}" ng-click = "wizard.go(5)">
+									<h4 class = "mb0">Database</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(6)}" ng-click = "wizard.go(6)">
+									<h4 class = "mb0">Services Ports</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(7)}" ng-click = "wizard.go(7)">
+									<h4 class = "mb0">Applications</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(8)}" ng-click = "wizard.go(8)">
+									<h4 class = "mb0">Debugging</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(9)}" ng-click = "wizard.go(9)">
+									<h4 class = "mb0">Upload Images</h4>
+								</li>
+								<li ng-class = "{'active':wizard.active(10)}" ng-click = "wizard.go(10)">
+									<h4 class = "mb0">Submit</h4>
+								</li>
+							</ol>
+							<!-- END wizard steps indicator-->
+
+							<!-- START Wizard Step inputs -->
+							<div ng-show = "wizard.active(1)">
+								<div ng-include = "'views/gateway/partials/sysInfo.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(2)">
+								<div ng-include = "'views/gateway/partials/prjInfo.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(3)">
+								<div ng-include = "'views/gateway/partials/ipAddr.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(4)">
+								<div ng-include = "'views/gateway/partials/backup.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(5)">
+								<div ng-include = "'views/gateway/partials/database.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(6)">
+								<div ng-include = "'views/gateway/partials/tcpPorts.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(7)">
+								<div ng-include = "'views/gateway/partials/applications.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(8)">
+								<div ng-include = "'views/gateway/partials/debug.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(9)">
+								<div ng-include = "'views/gateway/partials/upload.html'"></div>
+							</div>
+							<div ng-show = "wizard.active(10)">
+								<div ng-include = "'views/gateway/partials/review.html'"></div>
+							</div>
+							<!-- END Wizard Step inputs -->
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- END panel -->
+		</div>
+	</div>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "en" ng-app = "app">
+<head>
+	<title>Agile Office - WayFinder</title>
+	<meta charset = "utf-8">
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<meta name = "apple-mobile-web-app-capable" content = "yes">
+	<meta name = "apple-mobile-web-app-status-bar-style" content = "default">
+
+	<link rel = "icon" type = "image/png" href = "img/red-elephant-32x32.png">
+
+	<link rel = "stylesheet" href = "css/cloak.css"/>
+	<link rel = "stylesheet" href = "libs/bootstrap/dist/css/bootstrap.css"/>
+	<link rel = "stylesheet" href = "libs/select/select.css"/>
+	<link rel = "stylesheet" href = "libs/fontawesome/css/font-awesome.min.css"/>
+	<link rel = "stylesheet" href = "libs/sweetalert/lib/sweet-alert.css"/>
+	<link rel = "stylesheet" href = "libs/angular-chart/angular-chart.css"/>
+	<link rel = 'stylesheet' href = 'css/app.css'/>
+	<link rel = 'stylesheet' href = 'css/widget.css'/>
+	<link rel = 'stylesheet' href = 'css/toggle.css'/>
+
+
+	<script src = "libs/jquery/jquery.js"></script>
+	<script src = "libs/underscore/underscore.js"></script>
+	<script src = "libs/d3/d3.js"></script>
+	<script src = "libs/chartjs/Chart.js"></script>
+
+	<script src = "libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src = "libs/sweetalert/lib/sweet-alert.js"></script>
+	<script src = "libs/iCheck/icheck.min.js"></script>
+	<script src = "libs/skycons/skycons.js"></script>
+	<script src = "/socket.io/socket.io.js"></script>
+
+
+	<!-- Angular Modules -->
+	<script src = "libs/angular/angular.js"></script>
+	<script src = "libs/angular/angular-route.js"></script>
+	<script src = "libs/angular/angular-resource.js"></script>
+	<script src = "libs/angular/angular-animate.js"></script>
+	<script src = "libs/angular-chart/angular-chartjs.js"></script>
+	<script src = "libs/angular-bootstrap/ui-bootstrap-tpls-0.13.0.js"></script>
+	<script src = "libs/select/select.js"></script>
+	<script src = "libs/angular-fullscreen/angular-fullscreen.js"></script>
+	<script src = "libs/angular-x2js/x2js.js"></script>
+	<script src = "libs/ngStorage/ngStorage.js"></script>
+
+	<!-- Angular App -->
+	<script src = "js/app.js"></script>
+
+	<script src = "js/services/browser.js"></script>
+	<script src = "js/services/info.js"></script>
+	<script src = "js/services/schedule.js"></script>
+	<script src = "js/services/svg.js"></script>
+	<script src = "js/services/timeDate.js"></script>
+	<script src = "js/services/workspace.js"></script>
+	<script src = "js/services/auth.js"></script>
+	<script src = "js/services/data.js"></script>
+
+	<script src = "js/factories/socket.js"></script>
+	<script src = "js/factories/underscore.js"></script>
+	<script src = "js/factories/d3.js"></script>
+	<script src = "js/factories/sweet-alert.js"></script>
+	<script src = "js/factories/ao.js"></script>
+
+	<script src = "js/controllers/AppCtrl.js"></script>
+	<script src = "js/controllers/ScheduleCtrl.js"></script>
+	<script src = "js/controllers/SideBarCtrl.js"></script>
+	<script src = "js/controllers/WorkspaceCtrl.js"></script>
+	<script src = "js/controllers/Modals.js"></script>
+
+	<script src = "js/directives/animateIcon.js"></script>
+	<script src = "js/directives/dateTime.js"></script>
+	<script src = "js/directives/enter.js"></script>
+	<script src = "js/directives/leave.js"></script>
+	<script src = "js/directives/mainView.js"></script>
+	<script src = "js/directives/modalWarn.js"></script>
+	<script src = "js/directives/scheduler.js"></script>
+	<script src = "js/directives/sideBar.js"></script>
+	<script src = "js/directives/stock.js"></script>
+	<script src = "js/directives/titleBar.js"></script>
+	<script src = "js/directives/weather.js"></script>
+	<script src = "js/directives/splash.js"></script>
+
+</head>
+<body ng-cloak class = "no-select" ng-controller = "AppCtrl" ng-style = "cssBg">
+
+<!-- Simple splash screen-->
+<splash timeout = "3">
+	<h1>{{title}}</h1>
+	<p>Content And Data Is Now Loading. Please Standby. </p>
+</splash>
+
+<title-bar></title-bar>
+<side-bar></side-bar>
+<div class = "container-fluid">
+	<main-view></main-view>
+</div>
+
+</body>
+</html>

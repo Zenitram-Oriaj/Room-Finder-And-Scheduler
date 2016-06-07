@@ -1,0 +1,76 @@
+<div id = "navigation" ng-controller="NavigationCtrl">
+	<div class="profile-picture">
+		<div class="stats-label">
+			<clock></clock>
+			<a href="#">
+				<skycon icon="wthr.current.icn" size="wthr.current.icnSize" color="wthr.current.color"></skycon>
+			</a>
+			<h4 class="font-extra-bold font-uppercase">Currently: {{wthr.current.tmp}}&deg</h4>
+			<div class="row">
+				<div class="col col-xs-6">
+					<h5>High: <span class="text-danger"><b>{{wthr.today.high}}&deg</b></span></h5>
+				</div>
+				<div class="col col-xs-6">
+					<h5>Low : <span class="text-info"><b>{{wthr.today.low}}&deg</b></span></h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<ul side-navigation class = "nav" id = "side-menu">
+		<li ui-sref-active = "active">
+			<a ui-sref = "dashboard"><i class="fa fa-dashboard"></i><span class = "nav-label">  Dashboard</span></a>
+		</li>
+
+		<!--
+		<li ng-if="ao.user.accessLevel > 2" ui-sref-active = "active">
+			<a ui-sref = "analytics"><i class="fa fa-bar-chart"></i><span class = "nav-label">  Analytics</span></a>
+		</li>
+		-->
+
+		<li ng-class="{active: $state.includes('gateway')}">
+			<a href="#"><i class="fa fa-gears"></i><span class="nav-label">  Gateway</span><span class="fa arrow"></span> </a>
+			<ul class="nav nav-second-level" ng-class="{in: $state.includes('gateway')}">
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="gateway.info">Information</a></li>
+				<li ng-if="ao.user.accessLevel > 3" ui-sref-active="active"><a ui-sref="gateway.config">Configuration</a></li>
+			</ul>
+		</li>
+
+		<li ng-class="{active: $state.includes('workspaces')}">
+			<a href="#"><i class="fa fa-building-o"></i><span class="nav-label">  Workspaces</span><span class="fa arrow"></span> </a>
+			<ul class="nav nav-second-level" ng-class="{in: $state.includes('workspaces')}">
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="workspaces.info">Information</a></li>
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="workspaces.history">History</a></li>
+			</ul>
+		</li>
+
+		<li ng-class="{active: $state.includes('controllers')}">
+			<a href="#"><i class="fa fa-puzzle-piece"></i><span class="nav-label">  Controllers</span><span class="fa arrow"></span> </a>
+			<ul class="nav nav-second-level" ng-class="{in: $state.includes('controllers')}">
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="controllers.info">Information</a></li>
+			</ul>
+		</li>
+
+		<li ng-class="{active: $state.includes('wayfinders')}">
+			<a href="#"><i class="fa fa-columns"></i><span class="nav-label">  WayFinders</span><span class="fa arrow"></span> </a>
+			<ul class="nav nav-second-level" ng-class="{in: $state.includes('wayfinders')}">
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="wayfinders.info">Information</a></li>
+			</ul>
+		</li>
+
+		<li ng-class="{active: $state.includes('touchpanels')}">
+			<a href="#"><i class="fa fa-tablet"></i><span class="nav-label">  Touch Panels</span><span class="fa arrow"></span> </a>
+			<ul class="nav nav-second-level" ng-class="{in: $state.includes('touchpanels')}">
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="touchpanels.info">Information</a></li>
+			</ul>
+		</li>
+
+		<li ng-class="{active: $state.includes('server')}">
+			<a href="#"><i class="fa fa-server"></i><span class="nav-label">  Server</span><span class="fa arrow"></span> </a>
+			<ul class="nav nav-second-level" ng-class="{in: $state.includes('server')}">
+				<li ng-if="ao.user.accessLevel > 1" ui-sref-active="active"><a ui-sref="server.info">Information</a></li>
+				<li ng-if="ao.user.accessLevel > 2" ui-sref-active="active"><a ui-sref="server.logs">Logs</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>

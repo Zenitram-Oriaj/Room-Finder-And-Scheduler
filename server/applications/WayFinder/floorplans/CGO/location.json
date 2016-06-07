@@ -1,0 +1,30 @@
+{
+  "uuid": "CGO",
+  "name": "P&G GO",
+  "description": "P&G General Offices",
+  "timeZoneId": "Eastern Standard Time",
+  "tzOffset": -4,
+  "regionId": 1,
+  "floors": [
+    {
+      "id": 1,
+      "uid": "CLL",
+      "name": "Central Lower Level",
+      "description": ""
+    }
+  ],
+  "css": {
+    "color": "#0099ff"
+  },
+  "widgets": {
+    "dateTime": true,
+    "calendar": false,
+    "news": false,
+    "newsSrc": "",
+    "weather": true,
+    "weatherID": "45202",
+    "weatherUnit": "f",
+    "stock": true,
+    "stockID": "PG"
+  }
+}

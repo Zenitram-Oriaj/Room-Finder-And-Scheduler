@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loading Page</title>
+	<script>
+
+		setTimeout(function(){
+			window.location='./main.html';
+		},2 * 1000);
+
+	</script>
+</head>
+<body>
+<div class = "splash">
+	<div class = "splash-title">
+		<div ng-transclude></div>
+		<img ng-src = "./img/loading-bars.svg" width = "72" height = "72"/>
+	</div>
+</div>
+</body>
+</html>

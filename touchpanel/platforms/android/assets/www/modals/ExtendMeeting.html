@@ -1,0 +1,23 @@
+<div class="modal">
+	<div class = "titlebar shadow">
+		<img class = "logo pull-left" src = "img/logo.png" alt = "logo"/>
+		<div >Extend Meeting</div>
+		<a href="" class="btn btn-primary fa fa-2x fa-close pull-right" ng-click="hideModal(modalId)"></a>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col">
+			<h2>Are You Sure You Want To Extend This Meeting For 15 More Minutes?</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col col-50">
+			<button class="button button-block button-energized" ng-click="extMeeting()">YES</button>
+		</div>
+		<div class="col col-50">
+			<button class="button button-block button-positive" ng-click="hideModal(modalId)">NO</button>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,37 @@
+{
+  "uuid": "0C4DE9ABE80F",
+  "name": "WFD0C4DE9ABE80F",
+  "locationId": "CGO",
+  "floorId": "CLL",
+  "type": "WFD",
+  "url": "http://172.16.76.4:3002/?locationId=CGO&floorId=CLL",
+  "server": {
+    "ip": "172.16.76.4",
+    "port": 3002
+  },
+  "proxy": {
+    "http": "",
+    "https": ""
+  },
+  "os": {
+    "arch": "MacIntel",
+    "info": [
+      "Macintosh",
+      " Intel Mac OS X 10_10_4"
+    ]
+  },
+  "node": {
+    "version": "1.2.0",
+    "v8": "3.32.7",
+    "arch": "x64",
+    "pid": 64274,
+    "uid": 501
+  },
+  "network": {
+    "name": "en0",
+    "ip": "172.16.76.4",
+    "sub": "255.255.255.0",
+    "mac": "0c:4d:e9:ab:e8:0f"
+  },
+  "updatedAt": "2015-07-26T21:59:45.248Z"
+}

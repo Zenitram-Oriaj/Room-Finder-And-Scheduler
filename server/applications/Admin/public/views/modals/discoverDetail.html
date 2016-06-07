@@ -1,0 +1,37 @@
+<div class = "inmodal">
+	<div class = "color-line"></div>
+	<div class = "modal-header">
+		<h4 class = "modal-title">Discover Details</h4>
+		<small class = "font-bold">The Discovered IP Controller Unit</small>
+	</div>
+	<div class = "modal-body">
+		<div class = "hpanel">
+			<tabset class = "tabs-left">
+				<tab>
+					<tab-heading>
+						General
+					</tab-heading>
+					<div class = "panel-body">
+						<p><strong>UUID: </strong> {{ds.uuid}}</p>
+						<p><strong>Status: </strong> {{ds.status}}</p>
+					</div>
+				</tab>
+				<tab>
+					<tab-heading>
+						Settings
+					</tab-heading>
+					<div class = "panel-body">
+						<p><strong>Added:</strong> {{ds.createdAt | date: 'short'}}</p>
+
+						<p><strong>Updated:</strong> {{ds.updatedAt | date: 'short'}}</p>
+					</div>
+				</tab>
+			</tabset>
+		</div>
+	</div>
+	<div class = "modal-footer">
+		<button ng-show="ds.showSupport" type = "button" class = "btn btn-outline btn-info" ng-click = "config()">Configuration</button>
+		<button type = "button" class = "btn btn-outline btn-primary" ng-click = "cancel()">Close Details</button>
+	</div>
+</div>
+

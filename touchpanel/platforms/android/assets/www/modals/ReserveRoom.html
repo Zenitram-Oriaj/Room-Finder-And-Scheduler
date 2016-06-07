@@ -1,0 +1,50 @@
+<div class="modal">
+	<div class = "titlebar shadow">
+		<img class = "logo pull-left" src = "img/logo.png" alt = "logo"/>
+		<div class="title">Reservation Request</div>
+		<a href="#" class="btn btn-primary fa fa-2x fa-close pull-right" ng-click="hideModal(2)"></a>
+	</div>
+
+	<br/>
+
+	<div class = "row">
+		<div class = "col col-33">
+			<h4>Start Time:</h4>
+		</div>
+		<div class = "col col-25">
+			<h4>Duration:</h4>
+		</div>
+		<div class = "col col-40">
+			<h4>Local Reservation Details:</h4>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col col-33">
+			<timepicker ng-model = "res.startTime" ng-change = "changeStart()" hour-step = "hstep" minute-step = "mstep1"></timepicker>
+		</div>
+		<div class = "col col-25">
+			<duration></duration>
+		</div>
+		<div class = "col col-40">
+			<res-details></res-details>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col">
+			<res-notes></res-notes>
+		</div>
+	</div>
+
+	<div class="bar bar-footer">
+		<div class="row">
+			<div class="col col-50">
+				<button class="button button-block button-balanced" ng-click="submitRes()"> Submit</button>
+			</div>
+			<div class="col col-50">
+				<button class="button button-block button-assertive" ng-click="hideModal(2)"> Cancel</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,72 @@
+<div class = "inmodal">
+	<div class = "color-line"></div>
+	<div class = "modal-header">
+		<h4 class = "modal-title">Workspace Details</h4>
+		<small class = "font-bold"></small>
+	</div>
+	<div class = "modal-body">
+		<div class = "hpanel">
+			<tabset class = "tabs-left">
+				<tab>
+					<tab-heading>
+						General
+					</tab-heading>
+					<div class = "panel-body">
+						<p><strong>UUID:</strong> {{ws.uuid}}</p>
+						<p><strong>Name:</strong> {{ws.name}}</p>
+						<p><strong>Description:</strong> {{ws.description}}</p>
+						<p><strong>Type:</strong> {{ws.type | types: typeList}}</p>
+						<p><strong>Status:</strong> {{ws.status | state}}</p>
+					</div>
+				</tab>
+
+				<tab>
+					<tab-heading>
+						Local
+					</tab-heading>
+					<div class = "panel-body">
+						<p><strong>Location ID:</strong> {{ws.locationId}}</p>
+						<p><strong>Floor ID:</strong> {{ws.floorId}}</p>
+						<hr/>
+						<p><strong>TimeZone:</strong> {{ws.timeZoneId}}</p>
+						<p><strong>DST:</strong> {{ws.dst}}</p>
+						<p><strong>Offset:</strong> {{ws.tzOffset}}</p>
+
+					</div>
+				</tab>
+				<tab ng-show="ws.reservable">
+					<tab-heading>
+						Schedule
+					</tab-heading>
+					<div class = "panel-body">
+						<div class = "table-responsive">
+							<table cellpadding = "1" cellspacing = "1" class = "table table-bordered table-striped">
+								<thead>
+								<tr>
+									<th>Title</th>
+									<th>Host</th>
+									<th>Start</th>
+									<th>Stop</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr ng-repeat="rs in ws.schedules">
+									<td>{{ rs.description }}</td>
+									<td>{{ rs.createdByName }}</td>
+									<td>{{ rs.startTime | date:'short'}}</td>
+									<td>{{ rs.stopTime | date: 'short'}}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</tab>
+			</tabset>
+		</div>
+	</div>
+	<div class = "modal-footer">
+		<button type = "button" class = "btn btn-outline btn-info" ng-click = "config()">Configuration</button>
+		<button type = "button" class = "btn btn-outline btn-primary" ng-click = "cancel()">Close Details</button>
+	</div>
+</div>
+

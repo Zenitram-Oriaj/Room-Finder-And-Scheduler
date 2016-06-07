@@ -1,0 +1,15 @@
+SELECT * FROM `agileoffice-gateway`.controllerEvents where `uuid` = '2046F90364BF' order by `id` desc;
+SELECT * FROM `agileoffice-gateway`.controllerEvents order by `id` desc;
+
+// Use This to reset Auto Increment
+ALTER TABLE `agileoffice-gateway`.floors AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.locations AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.workspaces AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.controllers AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.discovers AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.controllerEvents AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.reservations AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.systemlogs AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.tokens AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.pcmonitors AUTO_INCREMENT = 1;
+ALTER TABLE `agileoffice-gateway`.rsusers AUTO_INCREMENT = 1;

@@ -1,0 +1,136 @@
+body {
+  overflow: hidden;
+  width: 100%;
+  background:url(../img/dwp_bg_2.png) #0099ff top left no-repeat;
+  background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust:none;
+}
+
+h1, h2, h3, h4, h5, h6, p, em {
+  margin: 10px;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+hr {
+  color: #d9232e !important;
+}
+
+/*****************************************/
+/*              NO SELECT                */
+/*****************************************/
+
+.no-select
+{
+  user-select: none;
+  -o-user-select:none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+
+/*****************************************/
+/*              TITLE BAR                */
+/*****************************************/
+
+.titlebar {
+  height: 74px;
+  width: 100%;
+  position: relative;
+  background:url(../img/nav-bar.png) top repeat-x;
+}
+
+/*****************************************/
+/*               CONTENT                 */
+/*****************************************/
+
+.content {
+  margin: 0 0 0 0;
+  padding: 5px 15px 5px 15px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+
+/*****************************************/
+/*                SPLASH                 */
+/*****************************************/
+
+.splash {
+  position: absolute;
+  z-index: 2000;
+  background: white;
+  color: gray;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.splash-title {
+  text-align: center;
+  max-width: 500px;
+  margin: 15% auto;
+  padding: 20px
+}
+
+.splash-title h1 {
+  font-size: 26px
+}
+
+/*****************************************/
+/*              JUMBOTRON                */
+/*****************************************/
+
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.form-control {
+  height: 45px;
+  font-size: 32px;
+}
+
+/*****************************************/
+/*                 MEDIA                 */
+/*****************************************/
+
+/* Mobile phones */
+@media (max-width: 480px){
+
+}
+
+/* Tablets */
+@media (max-width: 767px){
+
+  .container {
+    max-width: 730px;
+  }
+
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Desktops */
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 1366px){
+
+}

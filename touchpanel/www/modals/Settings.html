@@ -1,0 +1,72 @@
+<div class = "modal">
+	<div class = "titlebar shadow">
+		<img class = "logo" src = "img/logo.png" alt = "logo"/>
+		<div class = "title">Settings Panel</div>
+		<a href = "#" class = "btn btn-primary fa fa-2x fa-close pull-right" ng-click = "hideModal(modalId)"></a>
+	</div>
+
+	<form id = "settingsForm" role = "form" class = "form" name = "settingsForm" novalidate>
+		<ul class = "list">
+			<li class = "item">
+				<div class = "row">
+					<div class = "col col-50">
+						<div class = "form-group">
+							<label for = "uuid">Touch Panel UUID:</label>
+							<input type = "text" class = "form-control" id = "uuid" required ng-minlength = "12" placeholder = "Enter UUID"
+										 ng-model = "ao.uuid" name = "uuid">
+						</div>
+					</div>
+					<div class = "col col-50">
+						<div class = "form-group">
+							<label for = "roomName">Room Name:</label>
+							<input type = "text" class = "form-control" id = "roomName" required ng-minlength = "4" placeholder = "Enter Room Name"
+										 ng-model = "ao.name" name = "roomName">
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col col-50">
+						<div class = "form-group">
+							<label for = "serverURL">Server URL:</label>
+							<input type = "text" class = "form-control" id = "serverURL" required ng-minlength = "12" placeholder = "Enter Server URL"
+										 ng-model = "ao.url" name = "url">
+						</div>
+					</div>
+					<div class = "col col-50">
+						<div class = "form-group">
+							<label for = "reserveId">Reservation ID:</label>
+							<input type = "number" class = "form-control" id = "reserveId" required ng-minlength = "1" placeholder = "Enter Reservation Id"
+										 ng-model = "ao.reserveId" name = "reserveId">
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col col-50">
+						<div class = "form-group">
+							<label for = "companyId">Company ID:</label>
+							<input type = "number" class = "form-control" id = "companyId" required ng-minlength = "0" placeholder = "Enter Company Id"
+										 ng-model = "ao.companyId" name = "companyId">
+						</div>
+					</div>
+					<div class = "col col-50">
+						<div class = "form-group">
+							<label for = "reset">System:</label>
+							<button id = "reset" class = "btn btn-default" ng-click = "resetCfg()">Clear Local Config</button>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class = "item item-toggle">
+				Enable Screen Saver
+				<label class = "toggle toggle-balanced">
+					<input type = "checkbox" ng-model = "ao.enableScrnSvr">
+
+					<div class = "track">
+						<div class = "handle"></div>
+					</div>
+				</label>
+			</li>
+		</ul>
+	</form>
+
+</div>

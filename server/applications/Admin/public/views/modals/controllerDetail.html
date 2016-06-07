@@ -1,0 +1,117 @@
+<div class = "inmodal">
+	<div class = "color-line"></div>
+	<div class = "modal-header">
+		<h4 class = "modal-title">Controller Details</h4>
+		<small class = "font-bold">The Workspace IP Controller Unit</small>
+	</div>
+	<div class = "modal-body">
+		<div class = "hpanel">
+			<tabset class = "tabs-left">
+				<tab>
+					<tab-heading>
+						General
+					</tab-heading>
+					<div class = "panel-body">
+						<p><strong>UUID: </strong> {{ct.uuid}}</p>
+
+						<p><strong>Description:</strong> {{ct.description}}</p>
+
+						<p><strong>Workspace: </strong> {{ct.workspaceName}}</p>
+
+						<p><strong>WS ID: </strong> {{ct.workspaceUuid}}</p>
+
+						<p><strong>Status: </strong> {{ct.status}}</p>
+					</div>
+				</tab>
+
+				<tab>
+					<tab-heading>
+						History
+					</tab-heading>
+					<div class = "panel-body">
+						<div class = "table-responsive">
+							<table cellpadding = "1" cellspacing = "1" class = "table table-bordered table-striped">
+								<thead>
+								<tr>
+									<th>Type</th>
+									<th>Current</th>
+									<th>Previous</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>Up-time</td>
+									<td>{{ct.uptime}}</td>
+									<td>{{ct.prevUptime}}</td>
+								</tr>
+								<tr>
+									<td>Heartbeat</td>
+									<td>{{ct.heartbeatAt | date: 'short'}}</td>
+									<td>{{ct.prevHeartbeatAt | date: 'short'}}</td>
+								</tr>
+								<tr>
+									<td>Event</td>
+									<td>{{ct.eventAt | date: 'short'}}</td>
+									<td>{{ct.prevEventAt | date: 'short'}}</td>
+								</tr>
+								<tr>
+									<td>State</td>
+									<td>{{ct.state | state}}</td>
+									<td>{{ct.prevState | state}}</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</tab>
+				<tab>
+					<tab-heading>
+						Settings
+					</tab-heading>
+					<div class = "panel-body">
+						<p><strong>IP & Port:</strong> {{ct.ip}}:{{ct.port}}</p>
+
+						<p><strong>Firmware:</strong> {{ct.firmware}}</p>
+
+						<p><strong>Heartbeat:</strong> {{ct.heartbeat}} Second(s)</p>
+
+						<p><strong>Timeout:</strong> {{ct.timeout}} Minute(s)</p>
+
+						<p><strong>Added:</strong> {{ct.createdAt | date: 'short'}}</p>
+
+						<p><strong>Updated:</strong> {{ct.updatedAt | date: 'short'}}</p>
+					</div>
+				</tab>
+				<tab ng-show="ct.showSupport">
+					<tab-heading>
+						Support
+					</tab-heading>
+					<div class = "panel-body">
+						<a ng-href = "http://{{ct.ip}}:{{ct.port}}" target = "_blank">
+							<button class="btn btn-success" ng-click = "cancel()">View Home Page</button>
+						</a>
+
+						<a ng-href = "http://{{ct.ip}}:{{ct.port}}/settings_m2m?" target = "_blank">
+							<button class="btn btn-warning" ng-click = "cancel()"> View Config Page</button>
+						</a>
+
+						<hr/>
+						<p><strong>Last Reboot:</strong> {{ct.rebootAt | date: 'short'}}</p>
+
+						<p><strong>Reboot Count:</strong> {{ct.rebootCount}}</p>
+
+						<a ng-href = "http://{{ct.ip}}:{{ct.port}}/reboot?password={{ct.password}}" target = "_blank">
+							<button class="btn btn-danger">Manual Reboot</button>
+						</a>
+
+					</div>
+				</tab>
+			</tabset>
+		</div>
+	</div>
+	<div class = "modal-footer">
+		<button ng-show="ct.showSupport" type = "button" class = "btn btn-outline btn-info" ng-click = "config()">Configuration</button>
+		<button type = "button" class = "btn btn-outline btn-primary" ng-click = "cancel()">Close Details</button>
+	</div>
+</div>
+

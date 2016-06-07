@@ -1,0 +1,46 @@
+<div class = "color-line"></div>
+
+<div class = "login-container">
+	<div class = "row">
+		<div class = "col-md-12">
+			<div class = "text-center m-b-md">
+				<h3><strong> LOGIN TO THE GATEWAY SERVER</strong></h3>
+			</div>
+
+			<div class = "hpanel shadow">
+				<div class = "panel-body">
+					<form id = "loginForm" role = "form" class = "form" name = "loginForm" novalidate ng-submit = "login(loginForm.$valid)">
+						<div class = "form-group">
+
+							<div ng-show="failed" class = "hpanel hbgred">
+								<div class = "panel-body">
+									<div class = "text-center">
+										<div class="stats-icon">
+											<i class="pe-7s-close-circle fa-3x"></i>
+										</div>
+										<h4><strong>The email and/or password is incorrect</strong></h4>
+									</div>
+								</div>
+							</div>
+
+
+							<label class = "control-label" for = "email">Username</label>
+							<input type = "email" ng-model = "user.email" placeholder = "example@gmail.com" title = "Please enter your email" required value = ""
+										 name = "email" id = "email" class = "form-control">
+							<span class = "help-block small">The E-Mail address you use when you registered</span>
+							<div ng-messages="loginForm.email.$error" ng-messages-include="views/common/messages.html"></div>
+						</div>
+						<div class = "form-group">
+							<label class = "control-label" for = "password">Password</label>
+							<input type = "password" ng-model = "user.pass" title = "Please enter your password" placeholder = "******" required value = ""
+										 name = "password" id = "password" class = "form-control">
+							<span class = "help-block small">Your password</span>
+						</div>
+						<button type="submit" class = "btn btn-success btn-block">Login</button>
+						<a class = "btn btn-default btn-block" ui-sref = "register">Register</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

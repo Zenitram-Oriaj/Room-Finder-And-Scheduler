@@ -1,0 +1,75 @@
+<div class = "modal-content" ng-click="allClicks()">
+	<div class = "modal-header">
+		<h3 class = "modal-title">Update Reservation Request For {{ws.name}}</h3>
+	</div>
+	<div class = "modal-body">
+		<div ng-hide="active">
+			<div class = "row">
+				<div class = "col-md-4">
+					<h4>Start Time:</h4>
+				</div>
+				<div class = "col-md-4">
+					<h4>Duration:</h4>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-4">
+					<timepicker ng-model = "res.startTime" ng-change = "changeStopTime()" hour-step = "hstep" minute-step = "mstep1"></timepicker>
+				</div>
+				<div class = "col-md-4">
+					<table>
+						<tbody>
+						<tr class = "text-center">
+							<td>&nbsp;</td>
+							<td><a ng-click = "incrementMinutes()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-up"></span></a></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td style = "width:50px;" class = "form-group">
+								<input type = "text" ng-model = "minutes" ng-change = "updateMinutes()" class = "form-control text-center"/>
+							</td>
+							<td>&nbsp;Minutes</td>
+						</tr>
+						<tr class = "text-center">
+							<td>&nbsp;</td>
+							<td><a ng-click = "decrementMinutes()" class = "btn btn-link"><span class = "glyphicon glyphicon-chevron-down"></span></a></td>
+							<td>&nbsp;</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class = "row">
+			<div class = "col-md-12">
+				<div class = "alert alert-info">
+					<h5>Meeting Title: Local Reservation</h5>
+
+					<p>Start Time Is: {{res.startTime | date:'shortTime' }}</p>
+
+					<p>Stop Time Is : {{res.stopTime | date:'shortTime' }}</p>
+
+					<p>Duration Is: {{minutes}} Minutes</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<modal-warn></modal-warn>
+			</div>
+		</div>
+
+
+	</div>
+	<div class = "modal-footer">
+		<button ng-hide = "active" class = "btn btn-danger btn-lg pull-left" ng-click = "remove()">Delete</button>
+		<button ng-show = "active" class = "btn btn-info btn-lg pull-left" ng-click = "extend()">Extend</button>
+		<button ng-show = "active" class = "btn btn-danger btn-lg pull-left" ng-click = "end()">End</button>
+
+		<button class = "btn btn-success btn-lg" ng-click = "update()">Update</button>
+		<button class = "btn btn-warning btn-lg" ng-click = "cancel()">Cancel</button>
+	</div>
+</div>
+

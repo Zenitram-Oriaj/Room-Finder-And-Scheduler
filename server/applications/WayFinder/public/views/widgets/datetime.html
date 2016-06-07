@@ -1,0 +1,46 @@
+<div class = "widget shadow">
+	<div class = "widget-head">
+		<h3 class = "pull-left"><i class = "fa fa-clock-o"></i> Time & Date</h3>
+
+		<div class = "clearfix"></div>
+	</div>
+	<div class = "widget-body">
+		<div class = "clock">
+			<div id = "time"></div>
+			<div id = "date"></div>
+		</div>
+	</div>
+	<div class = "widget-foot"></div>
+	<script>
+		/* --------------------------------------------------------
+		 Date Time Widget
+		 -----------------------------------------------------------*/
+		(function () {
+			var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+			var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+			setInterval(function () {
+				SetDate();
+			}, 60 * 60 * 1000);
+
+			function SetDate() {
+				var dt = new Date();
+				dt.setDate(dt.getDate());
+				$('#date').html(dt.getDate() + ' ' + monthNames[dt.getMonth()] + ' ' + dt.getFullYear());
+			}
+
+			setInterval(function () {
+				Clock();
+			}, 1000);
+
+			function Clock() {
+				var d = new Date();
+				document.getElementById("time").innerHTML = d.toLocaleTimeString();
+			}
+
+			Clock();
+			SetDate();
+
+		})();
+	</script>
+</div>

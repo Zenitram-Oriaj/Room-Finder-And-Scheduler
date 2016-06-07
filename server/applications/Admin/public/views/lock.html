@@ -1,0 +1,31 @@
+<div class = "lock-container">
+	<div>
+
+		<div class = "hpanel">
+			<div class = "panel-body text-center">
+				<div ng-hide="serverOnline">
+					<i class = "pe-7s-lock big-icon text-success"></i>
+					<br/>
+					<p>Your are in lock screen. The Server is currently OFFLINE. Please wait for the connection to be restored.</p>
+				</div>
+
+				<div ng-show="serverOnline">
+					<i class = "pe-7s-lock big-icon text-success"></i>
+					<br/>
+					<p>Your are in lock screen. Main app was shut down and you need to enter your passwor to go back to app.</p>
+
+					<form action = "#" role = "form" class = "m-t">
+						<div class = "form-group">
+							<input type = "password" required = "" placeholder = "******" class = "form-control">
+						</div>
+						<button class = "btn btn-primary block full-width" type = "submit">Unlock</button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+</div>
+

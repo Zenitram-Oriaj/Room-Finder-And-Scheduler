@@ -1,0 +1,34 @@
+<div class = "widget shadow">
+	<div class = "widget-head">
+		<h3 class = "pull-left"><i class = "fa fa-cloud"></i> Local Weather</h3>
+		<div class = "clearfix"></div>
+	</div>
+	<div class = "widget-body">
+		<div class = "row">
+			<div class = "col-xs-4">
+				<img ng-src = "img/wt/{{wthr.wd.query.results.channel.item.condition.code}}.png" alt = "{{wthr.wd.query.results.channel.item.condition.code}}"/>
+			</div>
+			<div class = "col-xs-8">
+				<div class="row">
+					<h3>Currently: <b>{{wthr.wd.query.results.channel.item.condition.temp}}&deg;</b></h3>
+				</div>
+				<div class="row">
+					<h4>Conditions: {{wthr.wd.query.results.channel.item.condition.text}}</h4>
+				</div>
+			</div>
+		</div>
+		<div class = "weather">
+			<ul class = "clearfix">
+				<li ng-repeat = "fcast in wthr.wd.query.results.channel.item.forecast">
+					<span class = "day">{{fcast.day}}</span>
+					<span class = "dayicon"><img ng-src = "img/wt/w24/{{fcast.code}}.png" alt = "{{fcast.code}}" /></span>
+					<span class = "max">{{fcast.high}}&deg;</span>
+					<span class = "min">{{fcast.low}}&deg;</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class = "widget-foot" id="wthrLogo">
+		<img ng-src = "./img/logo/logo-3.png" alt = "Yahoo Weather"/>
+	</div>
+</div>

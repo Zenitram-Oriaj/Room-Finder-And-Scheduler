@@ -1,0 +1,71 @@
+{
+	"query": {
+		"count":   1,
+		"created": "2014-07-13T23:21:31Z",
+		"lang":    "en-US",
+		"results": {
+			"channel": {
+				"item": {
+					"title":       "Conditions for Las Vegas, NV at 3:52 pm PDT",
+					"lat":         "36.17",
+					"long":        "-115.14",
+					"link":        "http://us.rd.yahoo.com/dailynews/rss/weather/Las_Vegas__NV/*http://weather.yahoo.com/forecast/USNV0049_f.html",
+					"pubDate":     "Sun, 13 Jul 2014 3:52 pm PDT",
+					"condition":   {
+						"code": "34",
+						"date": "Sun, 13 Jul 2014 3:52 pm PDT",
+						"temp": "109",
+						"text": "Fair"
+					},
+					"description": "\n<img src=\"http://l.yimg.com/a/i/us/we/52/34.gif\"/><br />\n<b>Current Conditions:</b><br />\nFair, 109 F<BR />\n<BR /><b>Forecast:</b><BR />\nSun - Partly Cloudy. High: 109 Low: 86<br />\nMon - Partly Cloudy. High: 102 Low: 84<br />\nTue - Partly Cloudy. High: 101 Low: 83<br />\nWed - Isolated Thunderstorms. High: 101 Low: 83<br />\nThu - Partly Cloudy. High: 105 Low: 83<br />\n<br />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Las_Vegas__NV/*http://weather.yahoo.com/forecast/USNV0049_f.html\">Full Forecast at Yahoo! Weather</a><BR/><BR/>\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)<br/>\n",
+					"forecast":    [
+						{
+							"code": "29",
+							"date": "13 Jul 2014",
+							"day":  "Sun",
+							"high": "109",
+							"low":  "86",
+							"text": "Partly Cloudy"
+						},
+						{
+							"code": "30",
+							"date": "14 Jul 2014",
+							"day":  "Mon",
+							"high": "102",
+							"low":  "84",
+							"text": "Partly Cloudy"
+						},
+						{
+							"code": "30",
+							"date": "15 Jul 2014",
+							"day":  "Tue",
+							"high": "101",
+							"low":  "83",
+							"text": "Partly Cloudy"
+						},
+						{
+							"code": "37",
+							"date": "16 Jul 2014",
+							"day":  "Wed",
+							"high": "101",
+							"low":  "83",
+							"text": "Isolated Thunderstorms"
+						},
+						{
+							"code": "30",
+							"date": "17 Jul 2014",
+							"day":  "Thu",
+							"high": "105",
+							"low":  "83",
+							"text": "Partly Cloudy"
+						}
+					],
+					"guid":        {
+						"isPermaLink": "false",
+						"content":     "USNV0049_2014_07_17_7_00_PDT"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+/*****************************************/
+/*            Responsive CSS             */
+/*****************************************/
+
+/* Mobile phones */
+@media (max-width: 320px){
+
+}
+
+/* Tablets */
+@media (max-width: 800px){
+  .widget {
+    height: 175px;
+  }
+
+  .widget-body {
+    height: 165px;
+  }
+
+  .option-bar {
+    height: 175px;
+  }
+
+  .btn-lg {
+    padding: 27px 12px;
+  }
+}
+
+/* Desktop */
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 1200px){
+
+}
